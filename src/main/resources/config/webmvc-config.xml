@@ -22,6 +22,9 @@
   <mvc:view-controller path="/public/static/glossary" view-name="public/static/glossary"/>
   <mvc:view-controller path="/public/spa" view-name="public/spa"/>
   <mvc:view-controller path="/public/spa/test/polymorphism" view-name="public/spa/test/polymorphism"/>
+  <mvc:view-controller path="/public/spa/test/grid" view-name="public/spa/test/grid"/>
+
+
 
   <mvc:view-controller path="/private/index" view-name="private/index"/>
   <mvc:view-controller path="/private/admin" view-name="private/admin"/>

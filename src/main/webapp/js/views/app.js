@@ -1,4 +1,4 @@
-define(['jquery','underscore','backbone','libs/dhtmlx/dhtmlx','views/todo','text!templates/stats.html'],
+define(['jquery','underscore','backbone','lib/dhtmlx/dhtmlx','views/todo','text!templates/stats.html'],
   function ($, _, Backbone, Dhtmlx, TodoView, statsTemplate) {
     alert("todo " + TodoView);
     alert("Backbone " + Backbone.toString());

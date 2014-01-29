@@ -4,4 +4,7 @@
   <definition name="public/spa/test/polymorphism" extends="contentOnly">
     <put-attribute name="body" value="/WEB-INF/spa/test/polymorphism.jsp" />
   </definition>
+  <definition name="public/spa/test/grid" extends="contentOnly">
+    <put-attribute name="body" value="/WEB-INF/spa/test/grid.jsp" />
+  </definition>
 </tiles-definitions>

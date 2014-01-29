@@ -124,6 +124,11 @@
       <a href="/public/spa/test/polymorphism">Тест полиморфизма модели данных</a>
     </div>
 
+    <div class="navglist ">
+      <a href="/public/spa/test/grid">Тест грида</a>
+    </div>
+
+
     <security:authorize access="hasRole('ROLE_MARKETING')">
       <div class="navglist ">
         <a href="/private/compendium/update">Обновление справочников</a>

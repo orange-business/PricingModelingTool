@@ -1,4 +1,7 @@
 target
+out
+classes
+test_product
 .classpath
 .project
 .settings
@@ -6,6 +9,9 @@ tomcat.*
 .idea
 *.iml
 .idea/workspace.xml
-out
-classes
-test_product
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear

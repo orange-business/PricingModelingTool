@@ -1,5 +1,14 @@
 ﻿.git
 out
 target
+classes
+test_product
 .gitattributes
 .gitignore
+.classpath
+.project
+.settings
+tomcat.*
+.idea
+*.iml
+.idea/workspace.xml

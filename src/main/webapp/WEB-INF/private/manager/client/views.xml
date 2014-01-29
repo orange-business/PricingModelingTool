@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+    "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+  <definition name="client-main" extends="standardLayout">
+    <put-attribute name="body" value="/WEB-INF/private/manager/client/main.jsp"/>
+  </definition>
+  <definition name="client-new" extends="standardLayout">
+    <put-attribute name="body" value="/WEB-INF/private/manager/client/new.jsp"/>
+  </definition>
+</tiles-definitions>

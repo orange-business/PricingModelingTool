@@ -1,0 +1,24 @@
+{
+  "speed": {
+    "caption": "скорость подключения",
+    "value": 64,
+    "dimension": "Кбит/с"
+  },
+  "coefficient": [
+    {
+      "name": ["Москва","Moscow"],
+      "key" : "moscow",
+      "value": 0.22
+    },
+    {
+      "name": ["Петербург", "Petersburg"],
+      "key" : "petersburg",
+      "value": 0.22
+    },
+    {
+      "name": ["другие", "others"],
+      "key" : "other",
+      "value": 0.07
+    }
+  ]
+}

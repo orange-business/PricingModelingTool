@@ -1,0 +1,122 @@
+/* CSS Document */
+body { font:0.7em Arial, Helvetica, sans-serif; color:#444; background-color:transparent; }
+* html {font-size:100%}
+
+h1 { font-size:2.2em; font-weight:normal; padding-top:15px; padding-bottom:10px;}
+
+h2 { font-size:2em; font-weight:normal; padding:0.2em 0; }
+
+#login h2 { font-size:3.6em; }
+.intro { font-weight:normal; border-bottom:3px solid #CCC;}
+.orange { color:#F60; background-color:transparent; border-bottom:1px solid #CCC;}
+.gray { color:#666; background-color:transparent; border-bottom:1px solid #CCC; }
+.gray img {border-bottom:0}
+.formerror { color:#F60; vertical-align: middle; padding : 0 0 1.2em 0;}
+.rightTitle { border-bottom:1px solid #CCC; padding-left:10px; }
+
+.bgfocus3 h2, .bgfocus3 h3, .bgfocus2 h2, .bgfocus2 h3, .focus1 h2, .focus1 h3 {border:0; padding:0;} 
+
+h3 { font-size: 1.3em; font-weight:bold; line-height:1.3em; }
+h3 a{ padding-left:1em; background:url(../../img/puces/puceLink1.gif) no-repeat 0 3px;}
+h3 img { vertical-align:top; margin-top:0em; }
+li img { vertical-align:top; }
+
+input { font-size:1em; color:#333; background-color:#EEE; }
+select { font-size:1em; color:#333; background-color:#EEE; }
+p { font-size:1em; line-height:1.2em; padding:1em 0; }
+.content p { font-size:1em; }
+textarea { font:1em Arial, Helvetica, sans-serif; }
+label {}
+
+a { text-decoration:none; }
+a:link { font-size: 1em; color:#333; background-color:transparent; }
+a:visited { color:#444; background-color:transparent; }
+a:hover { color:#F60; background-color:transparent;  }
+a:active { color:#444; background-color:transparent; }
+
+#toolBar a { background:url(../../img/puces/puce_simple.gif)/*tpa=http://www.orange-business.com/img/puces/puce_simple.gif*/ no-repeat 4px 50%; }
+#toolBar #lastLink { border-right:1px solid #CCC; } /* ajout de cette d�finiton */
+#account { text-align:center;}
+#account a { background:url(../../img/puces/puce_simple.gif)/*tpa=http://www.orange-business.com/img/puces/puce_simple.gif*/ no-repeat 0 50%; padding-left:1em; font-weight:bold;}
+/* * html #account{ background-image:url(../img/puces/puce_simple.gif); background-position:1.1em; background-repeat:no-repeat;} */
+
+.tool a {font-weight:bold;}
+
+a.active { color:#F60; }
+a.active:visited { color:#F60; }
+a.active:hover { color:#F60; }
+
+.homeContacts {font-size:1.1em; font-weight:bold; color:#666;	}
+.home a.bold{ padding-left:1em; background:url(../../img/puces/puce_simple.gif)/*tpa=http://www.orange-business.com/img/puces/puce_simple.gif*/ no-repeat 0 50%; }
+.home a.underline{ color:#F60; text-decoration:underline;  }
+.home a.underline:visited{ color:#F60; }
+.home a.underline:hover{ color:#444; }
+	
+.listlinksbold li { font-size: 1.1em; font-weight:bold;}
+
+.boldcontent11 {font-size:1.1em; font-weight:bold; margin:0;}
+
+.titlinkbold {
+	font-size:1.1em;
+	font-weight:bold;
+	padding:0;
+	}
+.titlinkbold a {
+	display: block;
+	padding: 0 0.55em 0 1.05em;
+	background:url(../../img/puces/puce_simple.gif)/*tpa=http://www.orange-business.com/img/puces/puce_simple.gif*/ no-repeat left 0.4em;
+	}
+a.orangelink {
+	color:#F60;
+	font-weight:bold;
+	font-size:1.3em;
+	background:url(../../img/puces/puce_simple.gif)/*tpa=http://www.orange-business.com/img/puces/puce_simple.gif*/ no-repeat 0 0.52em;
+	padding-left: 0.70em;
+	}
+a.orangelink_img {
+	background:url(../../img/puces/puce_simple.gif)/*tpa=http://www.orange-business.com/img/puces/puce_simple.gif*/ no-repeat 0 2px;
+	padding-left: 0.8em;
+	}
+* html a.orangelink_img {
+	background:url(../../img/puces/puce_simple.gif)/*tpa=http://www.orange-business.com/img/puces/puce_simple.gif*/ no-repeat 0 8px;
+	}
+a.orangelink:visited {
+	color:#F60;
+	}
+a.orangelink:active {
+	color:#F60;
+	}
+a.orangelink:hover {
+	color:#444;
+	}
+	
+.nom_blocks {
+	background-color:#EEEEEE;
+	float:left;
+	height:15px;
+	text-align:center;
+	width:140px;
+}
+
+.rte {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.rte  li {
+	padding:0 0 0 11px;
+	margin:4px 0 4px 12px;
+	background-image:url('../../img/puces/puce_squar.gif');
+	background-repeat:no-repeat;
+	background-position:0 0.5em;
+}
+
+/* NEW 3/4 ~ 1/4 */
+#center3cbis .gray a {
+	display: block;
+	padding-left:0.5em;
+	background:url(../../img/puces/puce_simple.gif) no-repeat 0 0.4em;
+}
+
+a.boldhubv2{ padding-left:1em; background:url(../../img/puces/puce_simple.gif) no-repeat 0 50%; }

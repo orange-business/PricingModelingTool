@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+          http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd" start-state="index">
+  <!-- Тестовая цепочка для проверки интерфейса -->
+  <secured attributes="ROLE_MARKETING"/>
+  <view-state id="index">
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="next" to="end"/>
+  </view-state>
+  <end-state id="end" view="redirect:/" commit="true"/>
+</flow>

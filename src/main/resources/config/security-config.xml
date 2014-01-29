@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns:beans="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+                           http://www.springframework.org/schema/security
+                           http://www.springframework.org/schema/security/spring-security-3.1.xsd">
+  <http auto-config="false" use-expressions="true">
+      <!--entry-point-ref="loginUrlAuthenticaionEntryPoint">-->
+    <intercept-url pattern="/" access="permitAll"/>
+    <intercept-url pattern="/css/**" access="permitAll"/>
+    <intercept-url pattern="/img/**" access="permitAll"/>
+    <intercept-url pattern="/js/**" access="permitAll"/>
+    <intercept-url pattern="/public/**" access="permitAll"/>
+    <intercept-url pattern="/private/admin/**" access="hasRole('ROLE_ADMIN')"/>
+    <intercept-url pattern="/admin/**" access="hasRole('ROLE_ADMIN')"/>
+    <intercept-url pattern="/private/calculations/**" access="hasRole('ROLE_MARKETING')"/>
+    <intercept-url pattern="/private/**" access="isFullyAuthenticated()"/>
+    <access-denied-handler error-page="/public/accessDenied"/>
+    <form-login login-page="/public/login"
+                login-processing-url="/public/loginProcess"
+	            default-target-url="/"
+                authentication-failure-url="/public/login?login_error=1"/>
+	<!--<logout logout-url="/public/logout"-->
+            <!--invalidate-session="true"-->
+            <!--delete-cookies="JSESSIONID,SPRING_SECURITY_REMEMBER_ME_COOKIE"-->
+            <!--logout-success-url="/public/logoutSuccess"/>-->
+    <session-management session-fixation-protection="migrateSession">
+      <concurrency-control max-sessions="1"/>
+    </session-management>
+    <custom-filter position="LOGOUT_FILTER" ref="logoutFilter"/>
+  </http>
+
+  <beans:bean id="logoutFilter" class="org.springframework.security.web.authentication.logout.LogoutFilter">
+    <beans:constructor-arg index="0" value="/public/login"/>
+    <beans:constructor-arg index="1">
+      <beans:list>
+        <beans:bean id="securityContextLogoutHandler" class="org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler"/>
+        <!--<beans:bean id="myLogoutHandler" class="com.orange.ru.core.security.LogoutOrderHandler"/>-->
+      </beans:list>
+    </beans:constructor-arg>
+    <beans:property name="filterProcessesUrl" value="/public/logout"/>
+  </beans:bean>
+  <authentication-manager>
+    <authentication-provider user-service-ref="jdbcUserDetailsManager">
+      <password-encoder ref="passwordEncoder"/>
+    </authentication-provider>
+  </authentication-manager>
+  <beans:bean id="jdbcUserDetailsManager" class="com.orange.ru.core.userdetails.OrangeJdbcUserDetailsManager"/>
+  <beans:bean id="passwordEncoder" class="org.springframework.security.crypto.password.StandardPasswordEncoder"/>
+</beans:beans>

@@ -1,0 +1,429 @@
+/* CSS Document */
+*{margin:0; padding:0;}
+
+/*#contener { width:910px; height:auto; padding:20px 0; margin:auto;}*/
+#contener { width:1800px; height:1000px; padding:20px 0; margin:auto;}
+#contenerprint{ width:750px; height:auto; padding:20px 0; margin:auto;}
+* html #contener {width:921px;}
+* html #contenerprint {width:761px;}
+#header {width:910px; }
+#smallheader {width:900px; margin-bottom:20px; }
+
+#leftNav {width:150px; float:left;}
+#center {width:599px; float:left; margin-left:10px;}
+#center3c, #center4c {width:750px; float:left; margin-left:10px;}
+* html #center3c, #center4c {width:750px; float:left; margin-left:10px;} 
+#center3cbis {width:680px; float:left;} /* NEW 3/4 ~ 1/4 */
+#center2c {width:600px; float:left; } /* NEW 2C */
+#centerplain {width:910px; float:left;}
+
+#right {width:150px; float:right; }
+#rightbis {width:220px; float:left; margin-left:10px; margin-top:15px; } /* NEW 3/4 ~ 1/4 */
+
+#footer { width:910px; clear:both; position:relative; }
+
+.ligne {
+	width:590px; float:left; margin-bottom:10px; position:relative;
+	}
+#centerplain .ligne {
+	width:910px;
+	}
+#center3c .ligne, #center4c .ligne {
+	width:750px;
+	}
+.popup { width:625px; height:auto; padding:20px;}
+
+#screen800 #contener {width: 760px}
+* html #screen800 #contener {width: 761px}
+* html #screen800 #contenerprint {width: 761px}
+#screen800 #header {width: 750px}
+#screen800 #smallheader {width: 740px}
+#screen800 #center {width: 430px; display:block;}
+#screen800 #centernews {width: 590px}
+#screen800 #center3c {width: 590px}
+#screen800 #center4c {width: 590px}
+#screen800 #centerplain {width: 760px}
+#screen800 #right {display: inline;margin-left: 10px}
+#screen800 #footer {width: 760px}
+#screen800 .ligne {width: auto}
+#screen800 #centerplain .ligne {width: 760px}
+#screen800 #center3c .ligne, #screen800 #center4c .ligne {width: 620px}
+
+#home #contener{
+    padding:0;
+}
+.coltitle .visu_header {float:left;}
+
+.colleft {
+    float:left; 
+}
+
+.cols{
+    width:910px;
+    margin-bottom:10px;
+	overflow: hidden; _overflow: visible: zoom:1;
+}
+
+.cols .col div.flash_bloc, .cols .coltitle .col img {
+    position:absolute;
+    right:0;
+    top:0;
+}
+
+.cols .col_2-3{
+    width:680px;
+    float:left;
+    margin-right:10px;
+}
+.cols .col_2-3 .col_2-3{
+    width:447px !important;
+    margin-right:0;
+}
+.cols .col_2-3 .col_2-3 .col_2-3{
+    width:265px !important;
+    margin-right:20px;
+}
+.cols .col_2-3 .col_2-3 .col_2-3 ul {
+    margin-bottom:7px;
+}
+.cols .col_2-3 .col_2-3 .col .col_1-3 img {
+    float:none;
+    padding:0;
+    display:inline;
+    margin-bottom:-1px;
+}
+.cols .col_2-3 .col_2-3 .col .col_1-3{
+    margin-right:0;
+    width:161px;
+}
+.cols .col_2-3 .col_2-3 .col_2-3 ul li{
+    background:  url("puce_li_col2-3.gif")/*tpa=http://www.orange-business.com/img/puces/puce_li_col2-3.gif*/ left center no-repeat;
+    padding-left:0;
+}
+.cols .col_2-3 .col_2-3 .col_2-3 ul a{
+    font-weight:normal;
+    background:none;
+}
+
+
+.cols .col_2-3 .col_2-3 .bloc{
+    border-bottom:1px solid #D8D8D8;
+    padding-bottom:2px;
+    margin-bottom:2px;
+    width:100%;
+}
+.cols .col_2-3 .col_2-3 .bloc .col1{
+float:left;
+margin-right:10px;
+width:276px;
+}
+.cols .col_2-3 .col_2-3 .bloc .col2{
+float:left;
+width:161px;
+}
+.cols .col_2-3 .col_2-3 .bloc .col2 img{
+    padding:0;
+}
+.cols .col_1-3{
+    width:213px;
+    float:left;
+    margin-right:20px;
+}
+.cols .col_1-3 .col{
+    margin-bottom:20px;
+}
+.cols .col_2-3 .col{
+    margin-bottom:10px;
+}
+.cols .col_2-3 .col p{
+    padding:7px 0 3px 0;
+}
+.cols .col .col_1-5{
+    width:177px;
+    float:left;
+}
+
+#home .btn_all{
+    font-weight:bold;
+    padding-left:18px;
+    background:  url("puce_btn_all.gif")/*tpa=http://www.orange-business.com/img/puces/puce_btn_all.gif*/ left center no-repeat; 
+    float:right;
+    clear:both;
+}
+
+.cols li{
+    display:block;
+}
+
+.cols .last{
+    margin:0 !important;
+    border:0 !important;
+}
+
+.cols .col_1-3.last{
+    width:220px;
+}
+
+.cols  .col_1-3 .titre,.cols  .col_2-3  .col_2-3 .titre{
+    border-bottom:3px solid #D8D8D8;
+    margin-bottom:10px;
+}
+.cols  .col_1-3 .titre h2{
+    color:#FF6600;
+}
+
+.cols  .col_2-3   .col_2-3 .col  img{
+    float:left;
+    padding:0 10px 10px 0;
+}
+
+.cols  .col_2-3   .col_2-3 .col  li a{
+    font-weight:normal;
+    margin:0;
+    background: url("puce_li_col2-3.gif")/*tpa=http://www.orange-business.com/img/puces/puce_li_col2-3.gif*/  0 5px no-repeat;
+    padding-left:15px;
+}
+.cols  .col_2-3   .col_2-3 .col  ul+a{
+    clear:both;
+    float:left;
+}
+#home .img{
+    float:left;
+}
+#home  .cols{
+    position:relative;
+}
+#home .home_login_bg {
+    background: url("bg_login.gif")/*tpa=http://www.orange-business.com/img/home/bg_login.gif*/ left bottom repeat-x;
+    padding:0 0 10px 10px;
+    width:210px;
+    position:absolute;
+    right:0;
+    top:0;
+    /*height:180px;*/
+}
+#home .home_login_bg ul li{
+    width:200px;
+}
+
+* html #home .coltitle div {
+float:left;
+}
+*:first-child+html #home .coltitle div {
+float:left;
+}
+
+*:first-child+html #home .home_login_bg {
+    padding-bottom:9px;
+	position:relative;
+	left:10px;
+	float:right;
+   /* height:170px;  */ 
+}
+* html #home .home_login_bg {
+    padding-bottom:9px;
+	position:relative;
+	left:10px;
+	float:right;
+   /* height:170px;  */ 
+}
+*:first-child+html  #home .home_login_bg div{
+	float:none;
+}
+* html #home .home_login_bg div{
+	float:none;
+}
+
+#home .home_login_bg .titre{
+    margin-bottom:10px;
+}
+#home .home_login_bg #espace_cl{
+    width:156px;
+}
+#home .home_login_bg input{
+    background:#ccc;
+    border:1px solid #ccc;
+}
+#home .home_login_bg h2 {
+    color:#FF6600;
+    font-size:1.3em;
+    font-weight:bold;
+} 
+#home   .home_login_bg label {
+    width:74px;
+}
+
+#home   .home_login_bg label.espace_cl{
+    width:auto;
+}
+#home .home_login_bg .listlinks li a {
+    background: url("puce_simple.gif")/*tpa=http://www.orange-business.com/img/puces/puce_simple.gif*/ left center no-repeat;
+    padding-left:15px;
+}
+#home   .home_login_bg .spacer{
+    border-bottom:1px solid white;
+    margin:5px 0;
+	width:200px;
+}
+#home   .home_login_bg .listlinks{
+    border:0;
+    margin:0;
+    padding:0;
+}
+
+#home h2{
+    padding:0;
+}
+
+#accordeon {
+    clear:both;
+}
+#accordeon li{
+    background: url("puceLink1.gif")/*tpa=http://www.orange-business.com/img/puces/puceLink1.gif*/ left top no-repeat;
+    padding-left:17px;
+    margin-top:7px;    
+}
+#accordeon .titre{
+    background:#ddd url("fond_off.gif")/*tpa=http://www.orange-business.com/img/puces/fond_off.gif*/ bottom no-repeat;
+    padding:4px 10px;
+    border-top:1px solid #ccc;
+    border-bottom:0;
+    height:auto;
+    margin-bottom:0;
+    cursor:pointer;
+}
+#accordeon .titre:hover{
+    background:#ccc url("fond_on.gif")/*tpa=http://www.orange-business.com/img/puces/fond_on.gif*/ bottom no-repeat;
+}
+#accordeon .on{
+    border-bottom:1px solid #ccc;
+    border-top:0;
+}
+#accordeon   h2{
+    color:#FF6600;
+    font-size:1.3em;
+    font-weight:bold;
+}
+#accordeon   ul{
+    padding:0 0 10px 10px;
+}
+#accordeon ul.nomargin, #accordeon ul.nomargin li{
+    padding:0px;
+    margin:0px;
+}
+
+
+/* top 10 */
+.col.top10 li{
+    list-style-type : decimal;
+    list-style-position:inside;
+    color:#FF6600;  
+    display:list-item;
+}
+.col.top10 h3{
+    font-size:1em;
+    line-height:auto;
+    padding-top:0;
+}
+.col.top10 ol{
+    display:block;
+    margin-top:7px;
+}
+.col.top10 .titre{
+    border-bottom:1px solid  #D8D8D8;
+    padding:4px 10px;
+    margin-bottom:7px;
+}   
+.col.top10 .titre h2{
+    color:#FF6600;
+    font-size:2em;
+}
+.col.top10 .bloc{
+    padding:0 10px;
+}   
+
+.col_2-3 .col span{
+    display:block;
+    border-top:1px solid #D8D8D8;
+    border-bottom:1px solid #D8D8D8;
+    padding:2px 0;
+    background:url("puce_simple.gif")/*tpa=http://www.orange-business.com/img/puces/puce_simple.gif*/ 0 7px  no-repeat;
+    padding-left:15px;
+}
+
+
+
+/* footer */
+#footer_home {
+    background: url("bg_footer.gif")/*tpa=http://www.orange-business.com/img/home/bg_footer.gif*/ left top repeat-x;
+    padding:10px;
+    clear:both;
+}
+#footer_home.cols{
+    width:890px;
+}
+#footer_home h2{
+    font-size:1.2em;
+    font-weight:bold;
+    color:#353535;
+    padding:0;
+}
+#footer_home .titre{
+    background: url("puce_squar.gif")/*tpa=http://www.orange-business.com/img/puces/puce_squar.gif*/ 0 9px no-repeat;
+    padding:0 0 0 7px;
+    margin-bottom:7px;
+}
+#footer_home .col_1-5 .col{
+    padding:10px;
+}
+#footer_home .bloc{
+    margin-bottom:20px;
+}
+#footer_home li{
+    line-height:1em;
+}
+#footer_home li a{
+    color:#353535;
+    font-size:0.8em;
+}
+#footer_home li a:hover{
+    color:#FF6600;
+}
+
+.link {
+	background:transparent url(/img/puces/puce_simple.gif) no-repeat scroll 0 5px;
+	display:table-cell;
+	font-weight:bold;
+	margin-top:7px;
+	padding-left:15px;
+}
+
+/*
+#home #nav{
+margin-bottom:30px;
+}
+*/
+
+.col1_sansimage{
+	float:left;
+	width:437px;
+}
+
+#home .none {
+    float:none;
+}
+
+.axiome a{
+font-weight:bold;
+color:#333333;
+text-decoration:underline;}
+
+.axiome a:hover{
+color:#FF6600;
+}
+
+.home_v2_title_rte_login{
+	width: 680px;
+	height: 130px;
+	float:left;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+                          http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
+  <secured attributes="ROLE_ADMIN" />
+  <var class="com.orange.ru.swf.model.OrangeUserForm" name="form"/>
+  <view-state id="listOrangeUser" model="form">
+    <binder>
+	  <binding property="email" required="true"/>
+	</binder>
+	<on-render>
+	  <render fragments="body" />
+	</on-render>
+	<transition on="proceed" to="deleteResultOrangeUser">
+      <evaluate expression="adminService.isEmailExists(form, messageContext)"/>
+    </transition>
+  </view-state>
+
+  <view-state id="deleteResultOrangeUser" model="form">
+	<on-render>
+      <render fragments="body" />
+	</on-render>
+	<transition on="confirm" to="end">
+	  <evaluate expression="adminService.deleteOrangeUser(form)" />
+	</transition>
+  </view-state>
+  <end-state id="end" view="redirect:/" />
+  <global-transitions>
+    <transition on="cancel" to="end" bind="false"/>
+  </global-transitions>
+</flow>

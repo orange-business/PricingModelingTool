@@ -1,0 +1,37 @@
+#nav {
+    height: 41px;
+	margin-bottom:31px;
+	float:none;
+	}
+
+#nav li {
+    display: inline;
+    float:left;
+}
+
+#smenu{
+	width:910px;
+	position: absolute;
+	top:40px; 
+	left:0px;
+	border-bottom:3px solid #E0E0E0;
+	margin-top:5px;
+	padding-bottom:5px;
+}
+#smenu li {
+    background: url(../../img/puces/puce_squar.gif)/*tpa=http://www.orange-business.com/img/puces/puce_squar.gif*/ no-repeat 0 50%;
+    margin: 0;
+    padding: 0 10px;
+    display: inline;
+}
+#smenu1 li,#smenu2 li,#smenu3 li,#smenu4 li,#smenu5 li,#smenu6 li,#smenu7 li,#smenu8 li ,#smenu9 li {
+	background: url(../../img/puces/puce_squar.gif)/*tpa=http://www.orange-business.com/img/puces/puce_squar.gif*/ no-repeat 0 50%;
+	margin: 0;
+	padding: 0 10px;
+	display: inline;
+}
+
+.navhon{
+/*font-weight: bold;*/
+color: #FF6600;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+       xsi:schemaLocation="http://www.springframework.org/schema/data/mongo
+                           http://www.springframework.org/schema/data/mongo/spring-mongo-1.0.xsd
+		                       http://www.springframework.org/schema/beans
+		                       http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+  <mongo:db-factory id="mongoDbFactory" dbname="pricing"/>
+
+  <mongo:mongo id="mongoClient" host="127.0.0.1" port="27017" />
+
+  <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+    <constructor-arg name="mongoDbFactory" ref="mongoDbFactory" />
+    <constructor-arg name="mongoConverter" ref="mappingConverter"/>
+    <!--WriteConcern defines how long the driver waits for the MongoDB server when doing  write operations-->
+    <property name="writeConcern" value="SAFE" />
+  </bean>
+  <mongo:mapping-converter id="mappingConverter">
+    <mongo:custom-converters>
+      <mongo:converter><bean class="com.orange.ru.mongodb.converter.BusinessVpnCostsReadConverter"/></mongo:converter>
+      <mongo:converter><bean class="com.orange.ru.mongodb.converter.BusinessVpnCostsWriteConverter"/></mongo:converter>
+      <mongo:converter><bean class="com.orange.ru.mongodb.converter.HourReadConverter"/></mongo:converter>
+      <mongo:converter><bean class="com.orange.ru.mongodb.converter.HourWriteConverter"/></mongo:converter>
+      <mongo:converter><bean class="com.orange.ru.mongodb.converter.InstallationReadConverter"/></mongo:converter>
+      <mongo:converter><bean class="com.orange.ru.mongodb.converter.InstallationWriteConverter"/></mongo:converter>
+      <mongo:converter><bean class="com.orange.ru.mongodb.converter.BusinessVpnTariffsReadConverter"/></mongo:converter>
+      <mongo:converter><bean class="com.orange.ru.mongodb.converter.BusinessVpnTariffsWriteConverter"/></mongo:converter>
+      <mongo:converter><bean class="com.orange.ru.mongodb.converter.CoefficientReadConverter"/></mongo:converter>
+      <mongo:converter><bean class="com.orange.ru.mongodb.converter.CoefficientWriteConverter"/></mongo:converter>
+    </mongo:custom-converters>
+  </mongo:mapping-converter>
+  <mongo:repositories base-package="com.orange.ru.mongodb.repositories"/>
+</beans>
+

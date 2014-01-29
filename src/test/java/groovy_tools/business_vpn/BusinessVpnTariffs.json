@@ -1,0 +1,262 @@
+{
+  "town": "Абакан",
+  "caption": "IPVPN Availability Matrix",
+  "description": "IPVPN Availability Matrix",
+  "source" : "IPVPN Availability Matrix - Debug.xls",
+  "coverage": [
+    {
+      "name": "domestic",
+      "caption": "domestic область покрытия",
+      "description": "domestic область покрытия",
+      "tariffication": [
+        {
+          "name": "fix",
+          "caption": "IP VPN Domestic, FIX (руб.)",
+          "description": "IP VPN Domestic, FIX (руб.)",
+          "port": [
+            {
+              "name": "silver",
+              "value": 111500,
+              "dimension": "RUR"
+            },
+            {
+              "name": "gold",
+              "value": 111500,
+              "dimension": "RUR"
+            },
+            {
+              "name": "platinum",
+              "value": 111500,
+              "dimension": "RUR"
+            }
+          ]
+        },
+        {
+          "name": "ubb",
+          "caption": "IP VPN Domestic, UBB",
+          "description": "IP VPN Domestic, UBB",
+          "mcc": {
+            "caption": "МСС, руб.",
+            "description": "mcc - минимальная сумма счета",
+            "port": [
+              {
+                "name": "silver",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "gold",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "platinum",
+                "value": 111500,
+                "dimension": "RUR"
+              }
+            ]
+          },
+          "service": {
+            "caption": "Стоимость 1 Мб исходящего трафика по классам сервиса",
+            "description": "Стоимость 1 Мб исходящего трафика по классам сервиса",
+            "colors": [
+              {
+                "name": "data3",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "data2",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "data1",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "voice",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "video",
+                "value": 111500,
+                "dimension": "RUR"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "orkug",
+      "caption": "okrug область покрытия",
+      "description": "okrug область покрытия",
+      "tariffication": [
+        {
+          "name": "fix",
+          "caption": "IP VPN Okrug, FIX (руб.)",
+          "description": "IP VPN Okrug, FIX (руб.)",
+          "port": [
+            {
+              "name": "silver",
+              "value": 111500,
+              "dimension": "RUR"
+            },
+            {
+              "name": "gold",
+              "value": 111500,
+              "dimension": "RUR"
+            },
+            {
+              "name": "platinum",
+              "value": 111500,
+              "dimension": "RUR"
+            }
+          ]
+        },
+        {
+          "name": "ubb",
+          "mcc": {
+            "caption": "mcc - минимальная сумма счета",
+            "description": "mcc - минимальная сумма счета",
+            "port": [
+              {
+                "name": "silver",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "gold",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "platinum",
+                "value": 111500,
+                "dimension": "RUR"
+              }
+            ]
+          },
+          "service": {
+            "caption": "Стоимость 1 Мб исходящего трафика по классам сервиса",
+            "description": "Стоимость 1 Мб исходящего трафика по классам сервиса",
+            "colors": [
+              {
+                "name": "data3",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "data2",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "data1",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "voice",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "video",
+                "value": 111500,
+                "dimension": "RUR"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "local",
+      "caption": "domestic область покрытия",
+      "description": "domestic область покрытия",
+      "tariffication": [
+        {
+          "name": "fix",
+          "caption": "Схема тарификации FIX",
+          "description":"Схема тарификации FIX",
+          "port": [
+            {
+              "name": "silver",
+              "value": 111500,
+              "dimension": "RUR"
+            },
+            {
+              "name": "gold",
+              "value": 111500,
+              "dimension": "RUR"
+            },
+            {
+              "name": "platinum",
+              "value": 111500,
+              "dimension": "RUR"
+            }
+          ]
+        },
+        {
+          "name": "ubb",
+          "mcc": {
+            "caption": "mcc - минимальная сумма счета",
+            "description": "mcc - минимальная сумма счета",
+            "port": [
+              {
+                "name": "silver",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "gold",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "platinum",
+                "value": 111500,
+                "dimension": "RUR"
+              }
+            ]
+          },
+          "service": {
+            "caption": "Стоимость 1 Мб исходящего трафика по классам сервиса",
+            "description": "Стоимость 1 Мб исходящего трафика по классам сервиса",
+            "colors": [
+              {
+                "name": "data3",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "data2",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "data1",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "voice",
+                "value": 111500,
+                "dimension": "RUR"
+              },
+              {
+                "name": "video",
+                "value": 111500,
+                "dimension": "RUR"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

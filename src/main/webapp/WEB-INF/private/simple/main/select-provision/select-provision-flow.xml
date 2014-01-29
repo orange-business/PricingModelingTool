@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+                          http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd"
+      start-state="select-provision-main">
+  <!-- Запрос клиента на предоставления услуг -->
+  <secured attributes="ROLE_MARKETING"/>
+
+  <var name="form" class="com.orange.ru.swf.model.ProductGetConfiguredForm" />
+
+  <view-state id="select-provision-main" model="form">
+    <binder>
+      <binding property="selectedProductName"/>
+    </binder>
+    <on-entry>
+      <evaluate expression="new java.lang.String[]{'Business VPN','Access Lines'}" result="viewScope.selectableProductNames"/>
+    </on-entry>
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="next" to="provision-get-configured"/>
+  </view-state>
+
+  <action-state id="provision-get-configured">
+    <evaluate expression="form.selectedProductName"/>
+    <transition on="Business VPN" to="configure-business-vpn" />
+    <transition on="Access Lines" to="configure-access-lines" />
+  </action-state>
+
+  <subflow-state id="configure-business-vpn" subflow="private/simple/business-vpn">
+    <output name="product" required="true" type="com.orange.ru.domain.product.BusinessVpn" value="conversationScope.product" />
+    <transition on="finish" to="finish"/>
+  </subflow-state>
+
+  <subflow-state id="configure-access-lines" subflow="private/simple/access-lines">
+    <output name="product" required="true" type="com.orange.ru.domain.product.AccessLines" value="conversationScope.product" />
+    <transition on="finish" to="finish"/>
+  </subflow-state>
+
+  <end-state id="finish"/>
+
+</flow>

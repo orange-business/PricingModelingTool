@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+          http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd"
+      start-state="enter">
+  <!-- Тестовая цепочка для проверки корректности формирования услуг -->
+  <secured attributes="ROLE_MARKETING"/>
+  <persistence-context/>
+  <view-state id="enter">
+    <on-entry>
+      <!-- Тестовый клиент с номером 1 -->
+      <evaluate expression="persistenceContext.flushMode" result="conversationScope.flushModeValueOld"/>
+      <!--<evaluate expression="persistenceContext.setFlushMode(T(javax.persistence.FlushModeType).COMMIT)"/>-->
+      <evaluate expression="persistenceContext.flushMode" result="conversationScope.flushModeValueNew"/>
+
+      <evaluate expression="customerService.findById(T(java.lang.Long).parseLong('3'))" result="conversationScope.customer" />
+      <!-- Тестовый оппортьюнити -->
+      <evaluate expression="new com.orange.ru.domain.Opportunity()" result="conversationScope.opportunity"/>
+      <evaluate expression="opportunity.setExternalId('23765498')"/>
+      <evaluate expression="opportunity.setCustomer(customer)"/>
+      <evaluate expression="opportunity.setClosed(false)"/>
+      <evaluate expression="opportunity.setType(T(com.orange.ru.domain.Opportunity$Type).NEW)"/>
+      <evaluate expression="opportunity.setNote('Тестовый заказ для элементарных цепочек работы с услугами.')"/>
+      <evaluate expression="persistenceContext.persist(opportunity)"/>
+      <!-- Тестовая версия заказа -->
+      <evaluate expression="new com.orange.ru.domain.Scenario()" result="conversationScope.scenario"/>
+      <evaluate expression="scenario.setContractTerm(24)"/>
+      <evaluate expression="scenario.setOwnerEmail(adminService.getEmail(currentUser))"/>
+      <evaluate expression="scenario.setNote('тестовая сборка - тестируем корректность конфигурирования услуг')"/>
+    </on-entry>
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="next" to="select-provision"/>
+  </view-state>
+
+  <!-- Запускаем подпотоки для получения сконфигурированной услуги -->
+  <subflow-state id="select-provision" subflow="private/simple/main/select-provision">
+    <transition on="finish" to="preview-product"/>
+  </subflow-state>
+
+  <view-state id="preview-product">
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="save_exit" to="end">
+      <evaluate expression="persistenceContext.persist(scenario)"/>
+      <evaluate expression="persistenceContext.persist(product)"/>
+      <evaluate expression="persistenceContext.persist(productItem)"/>
+      <evaluate expression="persistenceContext.persist(productItem.product)"/>
+      <evaluate expression="persistenceContext.persist(productItem.scenario)"/>
+    </transition>
+    <transition on="cancel" to="end"/>
+  </view-state>
+  <end-state id="end" view="redirect:/" commit="true">
+    <output name="confirmed" value="'Your booking is confirmed, you can book another hotel by searching again.'"/>
+  </end-state>
+</flow>

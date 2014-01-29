@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+                          http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd"
+      start-state="site-selection">
+  <!-- Запрос клиента на предоставления услуг -->
+  <secured attributes="ROLE_MARKETING"/>
+
+  <var name="product" class="com.orange.ru.domain.product.BusinessVpn" />
+  <var name="form" class="com.orange.ru.swf.model.ProductBusinessVPNForm" />
+
+  <view-state id="site-selection" model="form">
+    <binder>
+      <binding property="selectedSite" required="true"/>
+    </binder>
+    <on-entry>
+      <evaluate expression="siteService.findByCustomer(conversationScope.customer)" result="viewScope.selectableSites"/>
+    </on-entry>
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="next" to="is-town-native">
+      <evaluate expression="product.setSite(form.selectedSite)"/>
+    </transition>
+  </view-state>
+
+  <action-state id="is-town-native">
+    <on-entry>
+      <evaluate expression="form.getTownNative(product.site.address, bvpnCostsRepository.getAllTowns())" result="requestScope.town" />
+    </on-entry>
+    <evaluate expression="form.isTownNative(requestScope.town)"/>
+    <transition on="no" to="town-selection" />
+    <transition on="yes" to="configure-port-subflow">
+      <evaluate expression="product.setTown(requestScope.town)"/>
+    </transition>
+  </action-state>
+
+  <view-state id="town-selection" model="form">
+    <binder>
+      <binding property="town" required="true"/>
+    </binder>
+    <on-entry>
+      <evaluate expression="bvpnCostsRepository.getAllTowns()" result="flowScope.selectableTowns"/>
+    </on-entry>
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="next" to="configure-port-subflow">
+      <evaluate expression="product.setTown(form.town)"/>
+    </transition>
+  </view-state>
+  <!-- Запускаем подпоток для получения сконфигурирового порта -->
+  <subflow-state id="configure-port-subflow" subflow="private/simple/business-vpn/port">
+    <input name="product" required="true" type="com.orange.ru.domain.product.BusinessVpn" value="product"/>
+    <output name="port" required="true" type="com.orange.ru.domain.Port" value="conversationScope.port"/>
+    <transition on="end" to="treasure">
+       <evaluate expression="product.setPort(port)"/>
+    </transition>
+  </subflow-state>
+  <action-state id="treasure">
+    <on-entry>
+      <evaluate expression="new com.orange.ru.domain.product.ProductItem(product,conversationScope.scenario)" result="conversationScope.productItem"/>
+      <evaluate expression="productItem.setNote('Это тестовая сборка')"/>
+      <evaluate expression="businessVpnService.populateProductItemTreasuries(productItem)"/>
+    </on-entry>
+    <evaluate expression="'finish'"/>
+    <transition on="finish" to="finish">
+    </transition>
+  </action-state>
+  <end-state id="finish" />
+  <output name="product" value="product"/>
+</flow>

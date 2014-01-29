@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+                          http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd"
+      start-state="man-hour-main">
+  <!-- Работа со справочниками -->
+  <secured attributes="ROLE_MARKETING"/>
+  <view-state id="man-hour-main">
+    <on-render>
+      <evaluate expression="compendiumService.retrieveUnitCostPerHour()" result="viewScope.orders" />
+      <render fragments="body"/>
+    </on-render>
+    <transition on="next" to="finish"/>
+    <transition on="showOrderDetail" to="orderDetail">
+      <set name="flashScope.order" value="orders[requestParameters.index]"></set>
+    </transition>
+  </view-state>
+  <view-state id="orderDetail" popup="true">
+    <on-render>
+      <render fragments="content"></render>
+    </on-render>
+  </view-state>
+  <end-state id="finish" />
+</flow>

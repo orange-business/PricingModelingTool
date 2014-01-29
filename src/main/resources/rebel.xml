@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns="http://www.zeroturnaround.com"
+             xsi:schemaLocation="http://www.zeroturnaround.com http://www.zeroturnaround.com/alderaan/rebel-2_0.xsd">
+	<classpath>
+		<dir name="C:/PricingPortalProject/Source/Java/PricingModelingTool/src/main/resources">
+      <exclude name="**/persistence.xml"/>
+		</dir>
+		<dir name="C:/PricingPortalProject/Source/Java/PricingModelingTool/target/classes">
+      <exclude name="**/persistence.xml"/>
+		</dir>
+	</classpath>
+	<web>
+		<link target="/">
+			<dir name="C:/PricingPortalProject/Source/Java/PricingModelingTool/src/main/webapp">
+			</dir>
+		</link>
+	</web>
+</application>

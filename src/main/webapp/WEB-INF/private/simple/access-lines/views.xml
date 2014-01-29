@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+    "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+  <definition name="configure-access-lines" extends="standardLayout">
+    <put-attribute name="body" value="/WEB-INF/private/simple/access-lines/page01.jsp"/>
+  </definition>
+  <definition name="configure-carrier-type" extends="standardLayout">
+    <put-attribute name="body" value="/WEB-INF/private/simple/access-lines/page02.jsp"/>
+  </definition>
+</tiles-definitions>

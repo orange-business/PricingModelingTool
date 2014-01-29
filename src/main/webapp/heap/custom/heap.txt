@@ -1,0 +1,141 @@
+
+===============================================================================
+  var  myPop = new dhtmlXPopup();
+  myPop.attachList("name,price", [
+    {id: 1, name: "Audi A5 Coupe", price: "&euro; 31,550"},
+    {id: 2, name: "Audi A5 Sportback", price: "&euro; 30,990"},
+    myPop.separator,
+    {id: 3, name: "Audi A6", price: "&euro; 30,990"},
+    {id: 4, name: "Audi A6 Avant", price: "&euro; 37,450"},
+    {id: 5, name: "Audi A6 Quattro", price: "&euro; 55,360"}
+  ]);
+===============================================================================
+  var myForm = main_layout.cells('a').attachForm([
+    {type: "settings", labelWidth: 200, inputWidth: 70, position: "label-left" },
+    {type: "label", name:"form_label_1", label:"Pricing Portal Russia"},
+    {type: "label", name: "newProject", label: "New project",
+      list: [{ type: "input", label: "Project Name", value: "New project", validate: "NotEmpty"}]},
+    {type: "input", label: "Opportunity", name: "opportunity"},
+    {type: "input", label: "Клиент",      name: "customer"}
+  ]);
+================================================================================
+    var myForm = main_layout.cells('a').attachForm([
+      {type: "settings", labelWidth: 200, inputWidth: 70, position: "label-left" },
+      {type: "label", name:"form_label_1", label:"Pricing Portal Russia"},
+      {type: "label", name: "newProject", label: "New project",
+        list: [{ type: "input", label: "Project Name", value: "New project", validate: "NotEmpty"}]},
+      {type: "input", label: "Opportunity", name: "opportunity"},
+      {type: "input", label: "Клиент",      name: "customer"}
+    ]);
+=================================================================================
+
+  console.log('hello from buildInterface134');
+  dhtmlx.image_path = '/js/dhtmlx/imgs/';
+  var obj = document.getElementById("mainView");
+  var main_layout = new dhtmlXLayoutObject(document.body, '4J');
+  var main_layout = new dhtmlXLayoutObject(obj, '4J');
+
+  var a = main_layout.cells('a');
+  a.hideHeader();
+  main_layout.cells('b').hideHeader();
+  main_layout.cells('c').hideHeader();
+  main_layout.cells('d').hideHeader();
+
+  main_layout.cells("a").setHeight(40);
+  main_layout.cells("b").setHeight(40);
+  main_layout.cells('c').setWidth(60);
+
+  var menu = main_layout.attachMenu();
+  menu.setSkin("dhx_skyblue");
+
+  menu.setIconsPath('/js/dhtmlx/imgs/');
+  menu.loadXML('/js/dhtmlx/data/menu.xml');
+  var status = main_layout.attachStatusBar();
+  status.setText('Hello Orange!');
+  // Добавление элементов не из htmlx
+  a.attachObject("caption");
+
+  main_layout.cells('b').attachObject("top_tab");
+
+  var tabbar = main_layout.cells('d').attachTabbar();
+
+  tabbar.setImagePath("/js/dhtmlx/imgs/");
+  tabbar.setHrefMode("ajax-html");
+  tabbar.setSkinColors("#FCFBFC","#F4F3EE");
+  tabbar.addTab("common","Общее","100px");
+  tabbar.addTab("access","Доступ","100px");
+  tabbar.addTab("service1","Услуга 1","100px");
+  tabbar.setContentHTML("access","Не знаю пока что здесь разместить.");
+  tabbar.addTab("service2","Услуга 2","100px");
+  tabbar.addTab("service3","Услуга 3","100px");
+
+  tabbar.setTabActive("common");
+
+  var grid_main = tabbar.cells("common").attachGrid();
+  grid_main.setIconsPath('/js/dhtmlx/imgs/');
+
+  grid_main.setHeader(["Site address","Доступ","Услуга 1","Услуга 2","Услуга 3","Услуга 4"]);
+  grid_main.setColTypes("ro,ro,ro,ro,ro,ro");
+
+  grid_main.setColSorting('str,str,str,str,str,str');
+  grid_main.init();
+  main_layout.cells('c').attachObject("buttons");
+
+  dhtmlx.message.defPosition="top";
+  dhtmlx.message("Your data has been successfully saved!");
+
+//  async mode
+  dhtmlxAjax.get("/test/10",function(loader){
+    alert(loader.xmlDoc.responseText);
+  });
+  dhtmlxAjax.get("/product/10",function(loader){
+    var mygrid = tabbar.cells("common").attachGrid();
+    mygrid.setImagePath('/js/dhtmlx/imgs/');
+    mygrid.setHeader("Sales, Book Title, Author");
+    mygrid.setInitWidths("70,250,*");
+    mygrid.setColAlign("right,left,left");
+    mygrid.setColTypes("dyn,ed,ed");
+    mygrid.setColSorting("int,str,str");
+    var data = loader.xmlDoc.responseText;
+
+    mygrid.init();
+    mygrid.parse(data,"json");
+
+    mygrid.attachEvent("onRowSelect", doOnRowSelected);
+  });
+
+
+function doOnRowSelected(){
+  alert("Row selected");
+}
+==================================================================
+htmlx.image_path='/js/dhtmlx/imgs/';
+
+  var main_layout = new dhtmlXLayoutObject(document.body, '3E');
+
+  var b = main_layout.cells('b');
+  b.hideHeader()
+
+  var menu = main_layout.attachMenu();
+  menu.setSkin("dhx_skyblue");
+  // adding first top-level item
+  // menu.addNewSibling(null, "itemId", "Opportunity");
+  menu.addNewChild(null, 0, "opportunityId", "Opportunity");
+  menu.addNewChild(null, 0, "reportsId", "Отчеты");
+  //menu.addNewSeparator("file_new");
+  menu.addNewChild("opportunityId", 0, "helloId", "Hello World!");
+
+  //menu.addNewSibling(null, "file", "File", false); // adding the first item to the menu, "nextToId" param is null
+  //menu.addNewChild("file", 0, "file_new", "New", false); // adding a new child item
+  //menu.setHotKey("file_new", "Ctrl+N"); // setting a hotkey to a button
+   // adding a separator
+
+  //menu.setIconsPath("/js/dhtmlx/icons/");
+// adding first sub-level chechbox/radiobutton
+  //menu.addCheckbox("child", "helloId", 0, "opportunityId", "Hello World!");
+  // menu.addRadioButton("child", "nextToId", 0, "itemId", "itemText");
+//  var accordion_1 = b.attachAccordion();
+//  var panel_1 = accordion_1.addItem('panel_1','');
+//  var panel_2 = accordion_1.addItem('panel_2','');
+//  panel_1.close();
+//  panel_2.close();

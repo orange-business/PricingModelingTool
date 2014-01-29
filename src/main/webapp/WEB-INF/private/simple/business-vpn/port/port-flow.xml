@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+                          http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd"
+      start-state="configure-port-main">
+  <!-- Запрос клиента на предоставления услуг -->
+  <secured attributes="ROLE_MARKETING"/>
+
+  <var name="form" class="com.orange.ru.swf.model.PortForm" />
+  <var name="port" class="com.orange.ru.domain.Port"/>
+  <input name="product" required="true" type="com.orange.ru.domain.product.BusinessVpn"/>
+
+  <view-state id="configure-port-main" model="form">
+    <binder>
+      <binding property="selectedCoverage"/>
+      <binding property="selectedType"/>
+      <binding property="selectedSpeed"/>
+      <binding property="selectedTarifficationPlan"/>
+    </binder>
+    <on-entry>
+      <evaluate expression="compendiumService.getSpeedValues()" result="viewScope.speedValues"/>
+    </on-entry>
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="next" to="preview-port"/>
+  </view-state>
+
+  <view-state id="preview-port" model="form">
+    <on-entry>
+      <evaluate expression="port.setCoverage(form.selectedCoverage)"/>
+      <evaluate expression="port.setType(form.selectedType)"/>
+      <evaluate expression="port.setSpeed(form.selectedSpeed)"/>
+      <evaluate expression="port.setTarifficationScheme(form.selectedTarifficationPlan)"/>
+    </on-entry>
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="next" to="end"/>
+  </view-state>
+  <end-state id="end" />
+  <output name="port" required="true" type="com.orange.ru.domain.Port" value="port"/>
+</flow>

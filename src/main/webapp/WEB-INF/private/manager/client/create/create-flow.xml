@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+                          http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd"
+      start-state="client-create">
+  <!-- Создание нового клиента -->
+  <secured attributes="ROLE_MARKETING"/>
+  <var name="form" class="com.orange.ru.swf.model.ClientForm"/>
+  <view-state id="client-create" model="form">
+    <binder>
+      <binding property="official" required="true"/>
+    </binder>
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="save" to="finish">
+      <evaluate expression="customerService.persist(form.official)" result="flowScope.clientId" result-type="java.lang.Long"/>
+    </transition>
+    <transition on="cancel" to="cancel" bind="false">
+      <evaluate expression="T(java.lang.Long).parseLong('-1')" result="flowScope.clientId" result-type="java.lang.Long"/>
+    </transition>
+  </view-state>
+  <end-state id="finish" />
+  <end-state id="cancel"/>
+  <output name="clientId" value="flowScope.clientId" required="true" type="java.lang.Long" />
+</flow>

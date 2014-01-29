@@ -1,0 +1,145 @@
+﻿[{
+  "group" : "Sales",
+  "longName": "Sales TOP100",
+  "shortName": "ST100",
+  "cost" : "CostST100",
+  "valueCaption": "Unit cost per hour",
+  "value": 2468,
+  "valueCurrency" : "RUR"
+},
+{
+  "group" : "Sales",
+  "longName": "Sales Corporates",
+  "shortName": "SCorp",
+  "cost" : "CostSCorp",
+  "valueCaption": "Unit cost per hour",
+  "value": 1770,
+  "valueCurrency" : "RUR"
+},
+{
+  "group" : "Sales",
+  "longName": "Sales SME",
+  "shortName": "SSME",
+  "cost" : "CostSSME",
+  "valueCaption": "Unit cost per hour",
+  "value": 1902,
+  "valueCurrency" : "RUR"
+},
+  {
+    "group" : "Sales",
+    "longName": "Presales",
+    "shortName": "PreS",
+    "cost" : "CostPreS",
+    "valueCaption": "Unit cost per hour",
+    "value": 1397,
+    "valueCurrency" : "RUR"
+  },
+  {
+    "group" : "Operations",
+    "longName": "Field Operations",
+    "shortName": "FO",
+    "cost" : "CostFO",
+    "valueCaption": "Unit cost per hour",
+    "value": 1351,
+    "valueCurrency" : "RUR"
+  },
+  {
+    "group" : "Operations",
+    "longName": "Project Management (provisioning)",
+    "shortName": "PM",
+    "cost" : "CostPM",
+    "valueCaption": "Unit cost per hour",
+    "value": 1783,
+    "valueCurrency" : "RUR"
+  },
+  {
+    "group" : "Operations",
+    "longName": "Professional Services (Consulting)",
+    "shortName": "PS",
+    "cost" : "CostPS",
+    "valueCaption": "Unit cost per hour",
+    "value": 2050,
+    "valueCurrency" : "RUR"
+  },
+  {
+    "group" : "Operations",
+    "longName": "Customer Support",
+    "shortName": "CS",
+    "cost" : "CostCS",
+    "valueCaption": "Unit cost per hour",
+    "value": 1261,
+    "valueCurrency" : "RUR"
+  },
+  {
+    "group" : "Operations",
+    "longName": "Contact Center",
+    "shortName": "CC",
+    "cost" : "CostCC",
+    "valueCaption": "Unit cost per hour",
+    "value": 723,
+    "valueCurrency" : "RUR"
+  },
+  {
+    "group" : "Operations",
+    "longName": "Sourcing",
+    "shortName": "Sours",
+    "cost" : "CostSours",
+    "valueCaption": "Unit cost per hour",
+    "value": 1614,
+    "valueCurrency" : "RUR"
+  },
+  {
+    "group" : "Operations",
+    "longName": "Order Management",
+    "shortName": "OM",
+    "cost" : "CostOM",
+    "valueCaption": "Unit cost per hour",
+    "value": 1309,
+    "valueCurrency" : "RUR"
+  },
+  {
+    "group" : "Operations",
+    "longName": "Billing",
+    "shortName": "Bill",
+    "cost" : "CostBill",
+    "valueCaption": "Unit cost per hour",
+    "value": 1296,
+    "valueCurrency" : "RUR"
+  },
+  {
+    "group" : "Operations",
+    "longName": "CSM",
+    "shortName": "CSM",
+    "cost" : "CostCSM",
+    "valueCaption": "Unit cost per hour",
+    "value": 1487,
+    "valueCurrency" : "RUR"
+  },
+  {
+    "group" : "Finance",
+    "longName": "Finance",
+    "shortName": "Fin",
+    "cost" : "CostFin",
+    "valueCaption": "Unit cost per hour",
+    "value": 1555,
+    "valueCurrency" : "RUR"
+  },
+  {
+    "group" : "Legal",
+    "longName": "Legal",
+    "shortName": "Legal",
+    "cost" : "CostLegal",
+    "valueCaption": "Unit cost per hour",
+    "value": 2031,
+    "valueCurrency" : "RUR"
+  },
+  {
+    "group" : "RBNF",
+    "longName": "Technical RBNF",
+    "shortName": "TecRBNF",
+    "cost" : "CostTecRBNF",
+    "valueCaption": "Unit cost per hour",
+    "value": 1582,
+    "valueCurrency" : "RUR"
+  }
+]

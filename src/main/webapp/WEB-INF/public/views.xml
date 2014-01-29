@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"	"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+  <definition name="main" extends="standardLayout">
+    <put-attribute name="body" value="/WEB-INF/public/main.jsp" />
+  </definition>
+  <definition name="public/login" extends="standardLayout">
+    <put-attribute name="body" value="/WEB-INF/public/login.jsp" />
+  </definition>
+  <definition name="public/logoutSuccess" extends="standardLayout">
+    <put-attribute name="body" value="/WEB-INF/public/logoutSuccess.jsp" />
+  </definition>
+  <definition name="public/accessDenied" extends="standardLayout">
+    <put-attribute name="body" value="/WEB-INF/public/accessDenied.jsp" />
+  </definition>
+  <definition name="public/static/glossary" extends="standardLayout">
+    <put-attribute name="body" value="/WEB-INF/public/static/glossary.jsp" />
+  </definition>
+  <definition name="public/static/code" extends="standardLayout">
+    <put-attribute name="body" value="/WEB-INF/public/static/code.jsp" />
+  </definition>
+</tiles-definitions>

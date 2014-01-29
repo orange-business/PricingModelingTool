@@ -1,0 +1,2 @@
+mvn install:install-file -Dfile=D:\proj\PricingModelingTool\lib1\ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -Dpackaging=jar
+mvn install:install-file -Dfile=C:\proj\PricingModelingTool\lib1\json-lib-2.4-jdk15.jar -DgroupId=json-lib -DartifactId=json-lib -Dversion=2.4 -Dpackaging=jar

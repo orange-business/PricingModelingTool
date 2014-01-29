@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/mvc
+                           http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+		                       http://www.springframework.org/schema/beans
+		                       http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+  <!-- Enables controllers mapped with @RequestMapping annotations, formatting annotations @NumberFormat @DateTimeFormat, and JSR 303 style validation -->
+  <mvc:annotation-driven conversion-service="mvcConversionService"/>
+
+  <mvc:resources mapping="/resources/**" location="/, classpath:/META-INF/web-resources/"/>
+  <mvc:default-servlet-handler/>
+
+  <!-- Map paths directly to view names without controller processing.
+       Use the view-name attribute if necessary: by convention the view name equals the path without the leading slash -->
+  <mvc:view-controller path="/" view-name="main"/>
+  <mvc:view-controller path="/public/login" view-name="public/login"/>
+  <mvc:view-controller path="/public/logoutSuccess" view-name="public/logoutSuccess"/>
+  <mvc:view-controller path="/public/accessDenied" view-name="public/accessDenied"/>
+  <mvc:view-controller path="/public/static/glossary" view-name="public/static/glossary"/>
+  <mvc:view-controller path="/public/spa" view-name="public/spa"/>
+  <mvc:view-controller path="/public/spa/test/polymorphism" view-name="public/spa/test/polymorphism"/>
+
+  <mvc:view-controller path="/private/index" view-name="private/index"/>
+  <mvc:view-controller path="/private/admin" view-name="private/admin"/>
+  <mvc:view-controller path="/private/manager/compendium" view-name="private/manager/compendium"/>
+  <mvc:view-controller path="/private/compendium/update" view-name="private/compendium/update"/>
+
+  <!-- Resolves logical view names returned by Controllers to Tiles; a view name to resolve is treated as the name of a tiles definition -->
+  <bean id="tilesViewResolver" class="org.springframework.js.ajax.AjaxUrlBasedViewResolver">
+    <property name="viewClass" value="org.springframework.webflow.mvc.view.FlowAjaxTilesView"/>
+  </bean>
+
+  <!-- Pricing Modeling Tool -->
+  <!-- register "global" interceptor beans to apply to all registered HandlerMappings -->
+  <mvc:interceptors>
+    <bean class="org.springframework.web.servlet.theme.ThemeChangeInterceptor"/>
+    <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor" p:paramName="lang"/>
+  </mvc:interceptors>
+  <!-- resolves localized <theme_name>.properties files in the classpath to allow for theme support -->
+  <bean class="org.springframework.ui.context.support.ResourceBundleThemeSource" id="themeSource"/>
+  <!-- store preferred theme configuration in a cookie -->
+  <bean class="org.springframework.web.servlet.theme.CookieThemeResolver" id="themeResolver" p:cookieName="theme"
+        p:defaultThemeName="standard"/>
+  <bean class="org.springframework.context.support.ReloadableResourceBundleMessageSource" id="messageSource"
+        p:basenames="WEB-INF/i18n/messages,WEB-INF/i18n/application" p:fallbackToSystemLocale="false"
+        p:defaultEncoding="UTF-8"/>
+  <!-- store preferred language configuration in a cookie -->
+  <bean class="org.springframework.web.servlet.i18n.CookieLocaleResolver" id="localeResolver" p:cookieName="locale" p:defaultLocale="ru_RU"/>
+
+  <bean id="mvcConversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+    <property name="converters">
+      <set>
+        <bean name="orderConverter" class="com.orange.ru.core.converter.StringToEntityConverter">
+          <constructor-arg value="com.orange.ru.domain.Opportunity"/>
+        </bean>
+        <bean name="orderDetailsConverter" class="com.orange.ru.core.converter.StringToEntityConverter">
+          <constructor-arg value="com.orange.ru.domain.Scenario"/>
+        </bean>
+        <bean name="customerConverter" class="com.orange.ru.core.converter.StringToEntityConverter">
+          <constructor-arg value="com.orange.ru.domain.Customer"/>
+        </bean>
+        <bean name="locationSiteConverter" class="com.orange.ru.core.converter.StringToEntityConverter">
+          <constructor-arg value="com.orange.ru.domain.Site"/>
+        </bean>
+        <bean name="moneyConverter" class="com.orange.ru.core.converter.StringToBigMoneyConverter">
+          <constructor-arg value="org.joda.money.BigMoney"/>
+        </bean>
+        <bean name="channelConverter" class="com.orange.ru.core.converter.StringToChannelConverter">
+          <constructor-arg value="com.orange.ru.domain.product.enums.LinesType"/>
+        </bean>
+        <bean name="coverageConverter" class="com.orange.ru.core.converter.StringToCoverageConverter">
+          <constructor-arg value="com.orange.ru.domain.product.enums.PortCoverage"/>
+        </bean>
+        <bean name="portTypeConverter" class="com.orange.ru.core.converter.StringToPortTypeConverter">
+          <constructor-arg value="com.orange.ru.domain.product.enums.PortType"/>
+        </bean>
+        <bean name="tarifficationSchemeConverter" class="com.orange.ru.core.converter.StringToTarifficationSchemeConverter">
+          <constructor-arg value="com.orange.ru.domain.product.enums.PortTarifficationScheme"/>
+        </bean>
+      </set>
+    </property>
+  </bean>
+</beans>

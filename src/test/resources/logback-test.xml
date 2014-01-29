@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+    </layout>
+  </appender>
+  <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <file>MyLog.log</file>
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+    </layout>
+  </appender>
+
+  <appender name="RENEW_TEST" class="ch.qos.logback.core.FileAppender">
+    <append>false</append>
+    <file>renew.log</file>
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <Pattern>%msg%n</Pattern>
+    </layout>
+  </appender>
+
+  <logger name="com.orange.ru.domain.product.renew" level="DEBUG">
+    <appender-ref ref="RENEW_TEST"/>
+  </logger>
+
+
+  <appender name="JTEST" class="ch.qos.logback.core.FileAppender">
+    <file>jtest1.log</file>
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+    </layout>
+  </appender>
+
+  <logger name="com.orange.ru.json" level="DEBUG">
+    <appender-ref ref="JTEST"/>
+  </logger>
+
+
+  <!--<appender name="GSON_TEST" class="ch.qos.logback.core.FileAppender">-->
+    <!--<append>false</append>-->
+    <!--<file>gson.log</file>-->
+    <!--<layout class="ch.qos.logback.classic.PatternLayout">-->
+      <!--<Pattern>%msg%n</Pattern>-->
+    <!--</layout>-->
+  <!--</appender>-->
+
+  <!--<logger name="com.orange.ru.domain.product.gson1" level="DEBUG">-->
+    <!--<appender-ref ref="GSON_TEST"/>-->
+  <!--</logger>-->
+
+  <appender name="JSON_TEST" class="ch.qos.logback.core.FileAppender">
+    <append>false</append>
+    <file>scenario_serializer.log</file>
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <Pattern>%msg%n</Pattern>
+    </layout>
+  </appender>
+
+  <logger name="com.orange.ru.json" level="DEBUG">
+    <appender-ref ref="JSON_TEST"/>
+  </logger>
+
+
+  <logger name="populate" level="DEBUG">
+    <appender-ref ref="GSON_TEST"/>
+  </logger>
+
+  <root level="OFF">
+    <appender-ref ref="STDOUT"/>
+    <appender-ref ref="FILE" />
+  </root>
+</configuration>

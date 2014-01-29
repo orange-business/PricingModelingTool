@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+                          http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd"
+      start-state="cost-definition">
+  <!-- Запрос клиента на предоставления услуг -->
+  <secured attributes="ROLE_MARKETING"/>
+  <var class="com.orange.ru.swf.model.CostAccessLinesForm" name="form"/>
+  <input name="product" required="true" type="com.orange.ru.domain.product.AccessLines"/>
+  <action-state id="cost-definition">
+    <evaluate expression="product.type.code"/>
+    <transition on="fiber" to="fiber"/>
+    <transition on="copper" to="copper"/>
+    <transition on="radio" to="radio"/>
+  </action-state>
+  <view-state id="radio" model="form">
+    <binder>
+      <binding property="equipmentCostRadio"/>
+      <binding property="monthlyPaymentRadio"/>
+      <binding property="supportMonthlyPaymentRadio"/>
+      <binding property="legalizationCostRadio"/>
+      <binding property="mountingCostRadio"/>
+    </binder>
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="next" to="end">
+      <evaluate expression="accessLinesService.validateEquipmentCostRadio(form, messageContext)"/>
+      <evaluate expression="accessLinesService.validateMonthlyPaymentRadio(form, messageContext)"/>
+      <evaluate expression="accessLinesService.validateLegalizationCostRadio(form, messageContext)"/>
+      <evaluate expression="accessLinesService.validateMountingCostRadio(form, messageContext)"/>
+      <evaluate expression="accessLinesService.validateSupportMonthlyPaymentRadio(form, messageContext)"/>
+
+      <!--закупка оборудования-->
+      <evaluate expression="identificationService.getIdentification('access_lines_cost_equipment_procurement_price')"
+                result="flashScope.identification" result-type="com.orange.ru.domain.product.Identification"/>
+      <evaluate expression="productItem.addTreasure(new com.orange.ru.domain.product.Treasure(form.equipmentCostRadio, identification))"/>
+      <!--единовременная трата на легализацию-->
+      <evaluate expression="identificationService.getIdentification('access_lines_cost_radio_legalization')"
+                result="flashScope.identification" result-type="com.orange.ru.domain.product.Identification"/>
+         <evaluate expression="productItem.addTreasure(new com.orange.ru.domain.product.Treasure(form.legalizationCostRadio, identification))"/>
+      <!--Затраты на установку: mountingCost -->
+      <evaluate expression="identificationService.getIdentification('access_lines_cost_radio_mounting')"
+                result="flashScope.identification" result-type="com.orange.ru.domain.product.Identification"/>
+      <evaluate expression="productItem.addTreasure(new com.orange.ru.domain.product.Treasure(form.mountingCostRadio, identification))"/>
+      <!--ежемесячная поддержка-->
+      <evaluate expression="identificationService.getIdentification('access_lines_cost_monthly_radio_support')"
+                result="flashScope.identification" result-type="com.orange.ru.domain.product.Identification"/>
+      <evaluate expression="productItem.addTreasure(new com.orange.ru.domain.product.Treasure(form.supportMonthlyPaymentRadio, identification))"/>
+      <!--ежемесячная оплата-->
+      <evaluate expression="identificationService.getIdentification('access_lines_cost_radio_monthly')"
+                result="flashScope.identification" result-type="com.orange.ru.domain.product.Identification"/>
+      <evaluate expression="productItem.addTreasure(new com.orange.ru.domain.product.Treasure(form.monthlyPaymentRadio, identification))"/>
+    </transition>
+  </view-state>
+  <view-state id="fiber" model="form">
+    <binder>
+      <binding property="equipmentCostOrange"/>
+      <binding property="monthlyPaymentOrange"/>
+      <binding property="oneTimePaymentOrange"/>
+    </binder>
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="next" to="end">
+      <evaluate expression="accessLinesService.validateEquipmentCostOrange(form, messageContext)"/>
+      <evaluate expression="accessLinesService.validateOneTimePaymentOrange(form, messageContext)"/>
+      <evaluate expression="accessLinesService.validateMonthlyPaymentOrange(form, messageContext)"/>
+      <!--закупка оборудования-->
+      <evaluate expression="identificationService.getIdentification('access_lines_cost_equipment_procurement_price')"
+                result="flashScope.identification" result-type="com.orange.ru.domain.product.Identification"/>
+      <evaluate expression="productItem.addTreasure(new com.orange.ru.domain.product.Treasure(form.equipmentCostOrange, identification))"/>
+      <!--единовременная трата на аренду-->
+      <evaluate expression="identificationService.getIdentification('access_lines_cost_onetime')"
+                result="flashScope.identification" result-type="com.orange.ru.domain.product.Identification"/>
+      <evaluate expression="productItem.addTreasure(new com.orange.ru.domain.product.Treasure(form.oneTimePaymentOrange, identification))"/>
+      <!--ежемесячные платежи фирмы Orange-->
+      <evaluate expression="identificationService.getIdentification('access_lines_cost_monthly')"
+                result="flashScope.identification" result-type="com.orange.ru.domain.product.Identification"/>
+      <evaluate expression="productItem.addTreasure(new com.orange.ru.domain.product.Treasure(form.monthlyPaymentOrange, identification))"/>
+     </transition>
+  </view-state>
+
+  <view-state id="copper" model="form">
+    <binder>
+      <binding property="equipmentCostOrange"/>
+      <binding property="monthlyPaymentOrange"/>
+      <binding property="oneTimePaymentOrange"/>
+    </binder>
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="next" to="end">
+      <evaluate expression="accessLinesService.validateEquipmentCostOrange(form, messageContext)"/>
+      <evaluate expression="accessLinesService.validateOneTimePaymentOrange(form, messageContext)"/>
+      <evaluate expression="accessLinesService.validateMonthlyPaymentOrange(form, messageContext)"/>
+      <!--закупка оборудования-->
+      <evaluate expression="identificationService.getIdentification('access_lines_cost_equipment_procurement_price')"
+                result="flashScope.identification" result-type="com.orange.ru.domain.product.Identification"/>
+      <evaluate expression="productItem.addTreasure(new com.orange.ru.domain.product.Treasure(form.equipmentCostOrange, identification))"/>
+      <!--единовременная трата на аренду-->
+      <evaluate expression="identificationService.getIdentification('access_lines_cost_onetime')"
+                result="flashScope.identification" result-type="com.orange.ru.domain.product.Identification"/>
+      <evaluate expression="productItem.addTreasure(new com.orange.ru.domain.product.Treasure(form.oneTimePaymentOrange, identification))"/>
+      <!--ежемесячные платежи фирмы Orange-->
+      <evaluate expression="identificationService.getIdentification('access_lines_cost_monthly')"
+                result="flashScope.identification" result-type="com.orange.ru.domain.product.Identification"/>
+      <evaluate expression="productItem.addTreasure(new com.orange.ru.domain.product.Treasure(form.monthlyPaymentOrange, identification))"/>
+    </transition>
+  </view-state>
+  <end-state id="end"/>
+  <output name="product" value="product"/>
+</flow>

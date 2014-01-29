@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+                          http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd"
+              start-state="configure-access-lines">
+  <!-- Запрос клиента на предоставления услуги Access Lines -->
+  <secured attributes="ROLE_MARKETING"/>
+
+  <var name="form" class="com.orange.ru.swf.model.ProductAccessLinesForm" />
+  <var name="product" class="com.orange.ru.domain.product.AccessLines" />
+
+  <view-state id="configure-access-lines" model="form">
+    <on-entry>
+      <evaluate expression="new com.orange.ru.domain.product.ProductItem(product, scenario)" result="conversationScope.productItem"/>
+      <evaluate expression="siteService.findByCustomer(conversationScope.customer)" result="viewScope.selectableSites"/>
+    </on-entry>
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="next" to="configure-carrier-type">
+      <evaluate expression="product.setSite(form.selectedSite)"/>
+    </transition>
+  </view-state>
+  <!-- тип подсоединения узла -->
+  <view-state id="configure-carrier-type" model="form">
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="next" to="cost-subflow">
+      <evaluate expression="product.setType(form.getSelectedChannel())"/>
+    </transition>
+  </view-state>
+
+  <!-- Запускаем подпоток для получения затрат -->
+  <subflow-state id="cost-subflow" subflow="private/simple/access-lines/cost">
+    <input name="product" required="true" type="com.orange.ru.domain.product.AccessLines" value="product"/>
+    <transition on="end" to="finish"/>
+  </subflow-state>
+
+  <end-state id="finish"/>
+  <output name="product" value="product"/>
+</flow>

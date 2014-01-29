@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+  <file>web.log</file>
+  <layout class="ch.qos.logback.classic.PatternLayout">
+  <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+  </layout>
+  </appender>
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+    </layout>
+  </appender>
+  <logger name="com.orange.ru" level="TRACE"/>
+  <logger name="org.springframework.web.context.ContextLoader">
+    <level value="warn"/>
+  </logger>
+  <logger name="org.springframework.beans">
+    <level value="warn"/>
+  </logger>
+  <logger name="org.springframework.binding">
+    <level value="debug"/>
+  </logger>
+  <logger name="org.springframework.jdbc">
+    <level value="warn"/>
+  </logger>
+  <logger name="org.springframework.transaction">
+    <level value="warn"/>
+  </logger>
+  <logger name="org.springframework.orm">
+    <level value="debug"/>
+  </logger>
+  <logger name="org.springframework.web">
+    <level value="debug"/>
+  </logger>
+  <logger name="org.springframework.webflow">
+    <level value="debug"/>
+  </logger>
+  <logger name="org.hibernate.tool.hbm2ddl">
+    <level value="debug"/>
+  </logger>
+  <logger name="org.jboss.logging">
+    <level value="debug"/>
+  </logger>
+  <!-- Root Logger -->
+  <root level="debug">
+    <priority value="info"/>
+    <!--<appender-ref ref="STDOUT"/>-->
+    <appender-ref ref="FILE"/>
+  </root>
+</configuration>
+
+    <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+  <layout class="ch.qos.logback.classic.PatternLayout">
+    <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+  </layout>
+</appender>
+
+<appender name="JSON_TEST" class="ch.qos.logback.core.FileAppender">
+  <append>false</append>
+  <file>controller.log</file>
+  <layout class="ch.qos.logback.classic.PatternLayout">
+    <Pattern>%msg%n</Pattern>
+  </layout>
+</appender>
+
+<logger name="com.orange.ru.controller" level="DEBUG">
+  <appender-ref ref="JSON_TEST"/>
+</logger>
+
+<root level="OFF">
+  <!--<appender-ref ref="STDOUT"/>-->
+  <appender-ref ref="FILE" />
+</root>
+</configuration>

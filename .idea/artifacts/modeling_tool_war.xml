@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="modeling-tool:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="modeling-tool.war">
+      <element id="artifact" artifact-name="modeling-tool:war exploded" />
+    </root>
+  </artifact>
+</component>

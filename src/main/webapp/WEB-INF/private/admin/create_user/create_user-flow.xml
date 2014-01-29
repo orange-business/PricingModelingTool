@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+                          http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
+  <secured attributes="ROLE_ADMIN"/>
+  <var class="com.orange.ru.swf.model.OrangeUserForm" name="form"/>
+
+  <view-state id="enterOrangeUser" model="form">
+    <binder>
+      <binding property="email"/>
+      <binding property="firstName"/>
+      <binding property="lastName"/>
+      <binding property="password"/>
+      <binding property="selectedGroups"/>
+    </binder>
+    <on-render>
+      <evaluate expression="adminService.initializeSelectableGroups()" result="requestScope.selectableGroups"/>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="proceed" to="reviewOrangeUser">
+      <evaluate expression="adminService.validateEmail(form, messageContext)"/>
+      <evaluate expression="adminService.validateGroupSelected(form, messageContext)"/>
+      <evaluate expression="adminService.validateFirstName(form, messageContext)"/>
+      <evaluate expression="adminService.validateLastName(form, messageContext)"/>
+      <evaluate expression="adminService.validatePassword(form, messageContext)"/>
+    </transition>
+  </view-state>
+  <view-state id="reviewOrangeUser" model="form">
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="confirm" to="end">
+      <evaluate expression="adminService.persistOrangeUser(form)"/>
+    </transition>
+    <transition on="revise" to="enterOrangeUser"/>
+  </view-state>
+  <end-state id="end" view="redirect:/"/>
+  <global-transitions>
+    <transition on="cancel" to="end" bind="false"/>
+  </global-transitions>
+</flow>

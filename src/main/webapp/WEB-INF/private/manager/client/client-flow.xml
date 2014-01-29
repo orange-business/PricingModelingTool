@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+                          http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd"
+      start-state="client-main">
+  <!-- Создание нового клиента -->
+  <secured attributes="ROLE_MARKETING"/>
+  <view-state id="client-main">
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="client_create" to="client-create">
+    </transition>
+    <transition on="cancel" to="cancel"/>
+  </view-state>
+  <subflow-state id="client-create" subflow="private/manager/client/create">
+    <output name="clientId" type="java.lang.Long" value="flowScope.clientId" required="true" />
+    <transition on="finish" to="client-new"/>
+    <transition on="cancel" to="cancel"/>
+  </subflow-state>
+  <view-state id="client-new">
+    <on-entry>
+      <evaluate expression="customerService.findById(flowScope.clientId)"
+                result="viewScope.client" result-type="com.orange.ru.domain.Customer"/>
+    </on-entry>
+    <on-render>
+      <render fragments="body"/>
+    </on-render>
+    <transition on="return" to="client-main"/>
+    <transition on="cancel" to="cancel"/>
+  </view-state>
+
+  <end-state id="finish" />
+  <view-state id="cancel" view="redirect:/"/>
+</flow>

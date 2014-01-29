@@ -1,0 +1,17 @@
+in_lines_type_string build
+in_contract_term_months 36
+in_cost_onetime_lease_money 100000
+in_cost_monthly_lease_money 10000
+in_capex_equipment_money  0
+in_capex_build_money 0
+in_cost_monthly_build_money 0
+ref_risk_percent 4
+ref_standard_required_price_margin_percent 20
+ref_standard_required_price_payback_months 24
+ref_depreciation_equipment_months 60
+ref_depreciation_build_months 120
+ref_cost_executive_salary_percent 14
+out_standard_price_payment_monthly_money 80000
+out_standard_price_payment_onetime_money 17190
+out_standard_price_margin_percent 20.02
+out_standard_price_payback_months 8.21

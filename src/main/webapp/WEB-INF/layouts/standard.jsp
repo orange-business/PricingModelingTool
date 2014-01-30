@@ -128,6 +128,11 @@
       <a href="/public/spa/test/grid">Тест грида</a>
     </div>
 
+    <div class="navglist ">
+      <a href="/public/spa/heap">Произвольный SPA</a>
+    </div>
+
+
 
     <security:authorize access="hasRole('ROLE_MARKETING')">
       <div class="navglist ">

@@ -40,6 +40,7 @@ public class ProductItem implements Serializable {
     this.strings =  new TreeSet(new StringComparator());
     this.product = product;
   }
+  /* Обертываемый Product, либо AccessLines, либо Business VPN */
   @ManyToOne(cascade = CascadeType.PERSIST,fetch = FetchType.EAGER)
   @JoinColumn(name = "product_id", nullable = true)
   private Product product;
@@ -49,8 +50,8 @@ public class ProductItem implements Serializable {
   // набор всех денежных начислений, которые относятся к услуге (Product)
   @OneToMany(cascade = CascadeType.PERSIST,fetch = FetchType.LAZY)
   @JoinTable(name = "wrapper_string_parent",
-      joinColumns = @JoinColumn(name = "parent_id"),
-      inverseJoinColumns = @JoinColumn(name = "wrapper_string_id"))
+      joinColumns = @JoinColumn(name = "parent_id"), // это id самого product item
+      inverseJoinColumns = @JoinColumn(name = "wrapper_string_id")) // это id строкового параметра
   private Set<WrapperString> strings;
   public Set<WrapperString> getStrings() { return strings; }
   public void setStrings(Set<WrapperString> strings) { this.strings = strings; }
@@ -76,6 +77,7 @@ public class ProductItem implements Serializable {
   public void setTreasures(Set<WrapperMoney> treasures) { this.treasures = treasures; }
 
   // набор всех денежных начислений, которые относятся к услуге (Product)
+  // parent_id - это ссылка на ту
   @OneToMany(cascade = CascadeType.PERSIST,fetch = FetchType.LAZY)
   @JoinTable(name = "wrapper_numeric_parent",
       joinColumns = @JoinColumn(name = "parent_id"),

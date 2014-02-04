@@ -9,7 +9,7 @@ insert into OPPORTUNITY_SCENARIO(OPPORTUNITY_ID,SCENARIO_ID) SELECT OPPORTUNITY_
 INSERT INTO PORT(COVERAGE_ID,SPEED,TARIFFICATION_SCHEME_ID,TYPE_ID) values(100,2048,100,100);
 
 -- создаем PRODUCT: конкретная услуга Business VPN
-INSERT INTO BUSINESS_VPN(ID,PORT_ID,SITE_ID,TOWN) SELECT PRODUCT_SEQ.nextval, PORT_SEQ.currval,97,'Пенза' from dual;
+INSERT INTO BUSINESS_VPN(PORT_ID,SITE_ID,TOWN) SELECT PORT_SEQ.currval,97,'Пенза' from dual;
 -- создаем PRODUCT_ITEM: заполняем обертку для услуги TYPE_ID=100(new) и сразу связываем PRODUCT_ITEM и услугу
 INSERT INTO PRODUCT_ITEM(TYPE_ID,PRODUCT_ID,NOTE) SELECT 100, PRODUCT_SEQ.currval, 'Business VPN 1 - test product item' FROM DUAL;
 -- связываем сценарий и product item.

@@ -1,5 +1,5 @@
 -- создаем PRODUCT: конкретная услуга Access Lines, TYPE_ID=100 (build)
-INSERT INTO ACCESS_LINES(ID,TYPE_ID,SITE_ID) SELECT PRODUCT_SEQ.nextval,100, 97 from dual;
+INSERT INTO ACCESS_LINES(TYPE_ID,SITE_ID) SELECT 100, 97 from dual;
 -- создаем PRODUCT_ITEM: заполняем обертку для услуги TYPE_ID=100(new) и сразу связываем PRODUCT_ITEM и услугу
 INSERT INTO PRODUCT_ITEM(TYPE_ID,PRODUCT_ID,NOTE) SELECT 100, PRODUCT_SEQ.currval, 'Access Lines - test product item' FROM DUAL;
 

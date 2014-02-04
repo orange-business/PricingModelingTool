@@ -500,243 +500,6 @@ Site is Site - address = г. Воронеж, ул. Карла Маркса, д. 
             }
         },
         {
-            "id": 5,
-            "type": "new",
-            "note": "Access Lines - test product item",
-            "strings": [
-                {
-                    "id": 14,
-                    "code": "in_lines_type_string",
-                    "value": "build"
-                },
-                {
-                    "id": 13,
-                    "code": "in_product_item_type_string",
-                    "value": "new"
-                }
-            ],
-            "numerics": [
-                {
-                    "id": 85,
-                    "code": "out_customer_price_discount_onetime_percent",
-                    "value": 24.0
-                },
-                {
-                    "id": 84,
-                    "code": "out_customer_price_payback_months",
-                    "value": 24.0
-                },
-                {
-                    "id": 69,
-                    "code": "ref_cost_executive_salary_percent",
-                    "value": 14.0
-                },
-                {
-                    "id": 83,
-                    "code": "out_customer_price_margin_percent",
-                    "value": 24.0
-                },
-                {
-                    "id": 68,
-                    "code": "ref_risk_percent",
-                    "value": 4.0
-                },
-                {
-                    "id": 87,
-                    "code": "out_floor_price_margin_percent",
-                    "value": 24.0
-                },
-                {
-                    "id": 79,
-                    "code": "out_required_price_margin_percent",
-                    "value": 24.0
-                },
-                {
-                    "id": 73,
-                    "code": "ref_floor_price_margin_percent",
-                    "value": 10.0
-                },
-                {
-                    "id": 78,
-                    "code": "out_standard_price_payback_months",
-                    "value": 24.0
-                },
-                {
-                    "id": 71,
-                    "code": "ref_standard_required_price_margin_percent",
-                    "value": 20.0
-                },
-                {
-                    "id": 74,
-                    "code": "ref_floor_price_payback_months",
-                    "value": 24.0
-                },
-                {
-                    "id": 88,
-                    "code": "out_floor_price_payback_months",
-                    "value": 24.0
-                },
-                {
-                    "id": 76,
-                    "code": "ref_depreciation_build_months",
-                    "value": 120.0
-                },
-                {
-                    "id": 77,
-                    "code": "out_standard_price_margin_percent",
-                    "value": 22.0
-                },
-                {
-                    "id": 72,
-                    "code": "ref_standard_required_price_payback_months",
-                    "value": 24.0
-                },
-                {
-                    "id": 75,
-                    "code": "ref_depreciation_equipment_months",
-                    "value": 60.0
-                },
-                {
-                    "id": 90,
-                    "code": "out_floor_price_discount_monthly_percent",
-                    "value": 24.0
-                },
-                {
-                    "id": 80,
-                    "code": "out_required_price_payback_months",
-                    "value": 24.0
-                },
-                {
-                    "id": 70,
-                    "code": "ref_coefficient_onetime_payment_percent",
-                    "value": 30.0
-                },
-                {
-                    "id": 81,
-                    "code": "out_required_price_discount_onetime_percent",
-                    "value": 24.0
-                },
-                {
-                    "id": 82,
-                    "code": "out_required_price_discount_monthly_percent",
-                    "value": 24.0
-                },
-                {
-                    "id": 67,
-                    "code": "in_contract_term_months",
-                    "value": 36.0
-                },
-                {
-                    "id": 89,
-                    "code": "out_floor_price_discount_onetime_percent",
-                    "value": 24.0
-                },
-                {
-                    "id": 86,
-                    "code": "out_customer_price_discount_monthly_percent",
-                    "value": 24.0
-                }
-            ],
-            "treasures": [
-                {
-                    "id": 80,
-                    "code": "in_cost_monthly_build_money",
-                    "currencyCode": "RUR",
-                    "value": 200000
-                },
-                {
-                    "id": 78,
-                    "code": "in_capex_build_money",
-                    "currencyCode": "RUR",
-                    "value": 200000
-                },
-                {
-                    "id": 90,
-                    "code": "out_floor_price_payment_monthly_money",
-                    "currencyCode": "RUR",
-                    "value": 1000
-                },
-                {
-                    "id": 89,
-                    "code": "out_floor_price_payment_onetime_money",
-                    "currencyCode": "RUR",
-                    "value": 1000
-                },
-                {
-                    "id": 88,
-                    "code": "out_customer_price_payment_monthly_money",
-                    "currencyCode": "RUR",
-                    "value": 1000
-                },
-                {
-                    "id": 86,
-                    "code": "inout_required_price_payment_monthly_money",
-                    "currencyCode": "RUR",
-                    "value": 1000
-                },
-                {
-                    "id": 85,
-                    "code": "inout_required_price_payment_onetime_money",
-                    "currencyCode": "RUR",
-                    "value": 1000
-                },
-                {
-                    "id": 77,
-                    "code": "in_capex_equipment_money",
-                    "currencyCode": "RUR",
-                    "value": 100000
-                },
-                {
-                    "id": 84,
-                    "code": "out_standard_price_payment_onetime_money",
-                    "currencyCode": "RUR",
-                    "value": 1000
-                },
-                {
-                    "id": 82,
-                    "code": "out_standard_price_payment_monthly_money",
-                    "currencyCode": "RUR",
-                    "value": 1000
-                },
-                {
-                    "id": 81,
-                    "code": "in_cost_monthly_lease_money",
-                    "currencyCode": "RUR",
-                    "value": 200000
-                },
-                {
-                    "id": 87,
-                    "code": "out_customer_price_payment_onetime_money",
-                    "currencyCode": "RUR",
-                    "value": 1000
-                },
-                {
-                    "id": 79,
-                    "code": "in_cost_onetime_lease_money",
-                    "currencyCode": "RUR",
-                    "value": 200000
-                }
-            ],
-            "product": {
-                "id": 5,
-                "name": "Access Lines",
-                "code": "802.01",
-                "type": "build",
-                "site": {
-                    "id": 97,
-                    "isLastMile": false,
-                    "isBusinessCentre": false,
-                    "address": "\u0433. \u0412\u043E\u0440\u043E\u043D\u0435\u0436, \u0443\u043B. \u041A\u0430\u0440\u043B\u0430 \u041C\u0430\u0440\u043A\u0441\u0430, \u0434. 68",
-                    "customer": {
-                        "id": 9,
-                        "official": "\u041E\u041E\u041E \"\u0420\u043E\u0437\u0430 \u0425\u0443\u0442\u043E\u0440\"",
-                        "externalId": null,
-                        "customerType": "new"
-                    }
-                }
-            }
-        },
-        {
             "id": 6,
             "type": "new",
             "note": "Access Lines 2 - test product item",
@@ -956,6 +719,243 @@ Site is Site - address = г. Воронеж, ул. Карла Маркса, д. 
             ],
             "product": {
                 "id": 6,
+                "name": "Access Lines",
+                "code": "802.01",
+                "type": "build",
+                "site": {
+                    "id": 97,
+                    "isLastMile": false,
+                    "isBusinessCentre": false,
+                    "address": "\u0433. \u0412\u043E\u0440\u043E\u043D\u0435\u0436, \u0443\u043B. \u041A\u0430\u0440\u043B\u0430 \u041C\u0430\u0440\u043A\u0441\u0430, \u0434. 68",
+                    "customer": {
+                        "id": 9,
+                        "official": "\u041E\u041E\u041E \"\u0420\u043E\u0437\u0430 \u0425\u0443\u0442\u043E\u0440\"",
+                        "externalId": null,
+                        "customerType": "new"
+                    }
+                }
+            }
+        },
+        {
+            "id": 5,
+            "type": "new",
+            "note": "Access Lines - test product item",
+            "strings": [
+                {
+                    "id": 14,
+                    "code": "in_lines_type_string",
+                    "value": "build"
+                },
+                {
+                    "id": 13,
+                    "code": "in_product_item_type_string",
+                    "value": "new"
+                }
+            ],
+            "numerics": [
+                {
+                    "id": 85,
+                    "code": "out_customer_price_discount_onetime_percent",
+                    "value": 24.0
+                },
+                {
+                    "id": 84,
+                    "code": "out_customer_price_payback_months",
+                    "value": 24.0
+                },
+                {
+                    "id": 69,
+                    "code": "ref_cost_executive_salary_percent",
+                    "value": 14.0
+                },
+                {
+                    "id": 83,
+                    "code": "out_customer_price_margin_percent",
+                    "value": 24.0
+                },
+                {
+                    "id": 68,
+                    "code": "ref_risk_percent",
+                    "value": 4.0
+                },
+                {
+                    "id": 87,
+                    "code": "out_floor_price_margin_percent",
+                    "value": 24.0
+                },
+                {
+                    "id": 79,
+                    "code": "out_required_price_margin_percent",
+                    "value": 24.0
+                },
+                {
+                    "id": 73,
+                    "code": "ref_floor_price_margin_percent",
+                    "value": 10.0
+                },
+                {
+                    "id": 78,
+                    "code": "out_standard_price_payback_months",
+                    "value": 24.0
+                },
+                {
+                    "id": 71,
+                    "code": "ref_standard_required_price_margin_percent",
+                    "value": 20.0
+                },
+                {
+                    "id": 74,
+                    "code": "ref_floor_price_payback_months",
+                    "value": 24.0
+                },
+                {
+                    "id": 88,
+                    "code": "out_floor_price_payback_months",
+                    "value": 24.0
+                },
+                {
+                    "id": 76,
+                    "code": "ref_depreciation_build_months",
+                    "value": 120.0
+                },
+                {
+                    "id": 77,
+                    "code": "out_standard_price_margin_percent",
+                    "value": 22.0
+                },
+                {
+                    "id": 72,
+                    "code": "ref_standard_required_price_payback_months",
+                    "value": 24.0
+                },
+                {
+                    "id": 75,
+                    "code": "ref_depreciation_equipment_months",
+                    "value": 60.0
+                },
+                {
+                    "id": 90,
+                    "code": "out_floor_price_discount_monthly_percent",
+                    "value": 24.0
+                },
+                {
+                    "id": 80,
+                    "code": "out_required_price_payback_months",
+                    "value": 24.0
+                },
+                {
+                    "id": 70,
+                    "code": "ref_coefficient_onetime_payment_percent",
+                    "value": 30.0
+                },
+                {
+                    "id": 81,
+                    "code": "out_required_price_discount_onetime_percent",
+                    "value": 24.0
+                },
+                {
+                    "id": 82,
+                    "code": "out_required_price_discount_monthly_percent",
+                    "value": 24.0
+                },
+                {
+                    "id": 67,
+                    "code": "in_contract_term_months",
+                    "value": 36.0
+                },
+                {
+                    "id": 89,
+                    "code": "out_floor_price_discount_onetime_percent",
+                    "value": 24.0
+                },
+                {
+                    "id": 86,
+                    "code": "out_customer_price_discount_monthly_percent",
+                    "value": 24.0
+                }
+            ],
+            "treasures": [
+                {
+                    "id": 80,
+                    "code": "in_cost_monthly_build_money",
+                    "currencyCode": "RUR",
+                    "value": 200000
+                },
+                {
+                    "id": 78,
+                    "code": "in_capex_build_money",
+                    "currencyCode": "RUR",
+                    "value": 200000
+                },
+                {
+                    "id": 90,
+                    "code": "out_floor_price_payment_monthly_money",
+                    "currencyCode": "RUR",
+                    "value": 1000
+                },
+                {
+                    "id": 89,
+                    "code": "out_floor_price_payment_onetime_money",
+                    "currencyCode": "RUR",
+                    "value": 1000
+                },
+                {
+                    "id": 88,
+                    "code": "out_customer_price_payment_monthly_money",
+                    "currencyCode": "RUR",
+                    "value": 1000
+                },
+                {
+                    "id": 86,
+                    "code": "inout_required_price_payment_monthly_money",
+                    "currencyCode": "RUR",
+                    "value": 1000
+                },
+                {
+                    "id": 85,
+                    "code": "inout_required_price_payment_onetime_money",
+                    "currencyCode": "RUR",
+                    "value": 1000
+                },
+                {
+                    "id": 77,
+                    "code": "in_capex_equipment_money",
+                    "currencyCode": "RUR",
+                    "value": 100000
+                },
+                {
+                    "id": 84,
+                    "code": "out_standard_price_payment_onetime_money",
+                    "currencyCode": "RUR",
+                    "value": 1000
+                },
+                {
+                    "id": 82,
+                    "code": "out_standard_price_payment_monthly_money",
+                    "currencyCode": "RUR",
+                    "value": 1000
+                },
+                {
+                    "id": 81,
+                    "code": "in_cost_monthly_lease_money",
+                    "currencyCode": "RUR",
+                    "value": 200000
+                },
+                {
+                    "id": 87,
+                    "code": "out_customer_price_payment_onetime_money",
+                    "currencyCode": "RUR",
+                    "value": 1000
+                },
+                {
+                    "id": 79,
+                    "code": "in_cost_onetime_lease_money",
+                    "currencyCode": "RUR",
+                    "value": 200000
+                }
+            ],
+            "product": {
+                "id": 5,
                 "name": "Access Lines",
                 "code": "802.01",
                 "type": "build",

@@ -58,7 +58,8 @@ public class Scenario implements Serializable {
   public Integer getContractTerm() { return contractTerm; }
   public void setContractTerm(Integer contractTerm) { this.contractTerm = contractTerm; }
 
-  @Column(name = "last_update_date", nullable = false)
+  // DATE DEFAULT SYSDATE NOT NULL;
+  @Column(name = "last_update_date", nullable = false, columnDefinition = "DATE DEFAULT SYSDATE")
   @Type(type="org.jadira.usertype.dateandtime.joda.PersistentLocalDateTime")
   private LocalDateTime lastUpdateDate;
   public LocalDateTime getLastUpdateDate() { return lastUpdateDate; }

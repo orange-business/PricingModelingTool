@@ -1,7 +1,7 @@
 -- создаем оппортьюнити:
 insert into OPPORTUNITY(CUSTOMER_ID,EXTERNAL_ID,NOTE) VALUES(2,'4567653','тестовый оппортьюнити');
 -- создаем сценарий:
-insert into SCENARIO(CONTRACT_TERM,LAST_UPDATE_DATE,OWNER_EMAIL,NOTE) values(12,'30.01.14 18:44:47,662000000','sergey.bogachek@orange.com','sql-generated scenario 01');
+insert into SCENARIO(CONTRACT_TERM,OWNER_EMAIL,NOTE) values(12,'sergey.bogachek@orange.com','sql-generated scenario 01');
 insert into OPPORTUNITY_SCENARIO(OPPORTUNITY_ID,SCENARIO_ID) SELECT OPPORTUNITY_SEQ.currval, SCENARIO_SEQ.currval from dual;
 
 -- создаем PRODUCT Business VPN: порт - COVERAGE_ID = 100 (domestic), SPEED = 2048, TARIFFICATION_SCHEME_ID=100(FIX), TYPE_ID=100 (platinum)

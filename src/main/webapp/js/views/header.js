@@ -5,7 +5,7 @@ define(['text!templates/header.html', 'underscore', 'backbone'], function (templ
     return Backbone.View.extend({
         template: _.template(template),
         //
-        text: "the header",
+        text: "the header - minimal changes!",
         //
         render: function() {
             this.$el.html(this.template(this));

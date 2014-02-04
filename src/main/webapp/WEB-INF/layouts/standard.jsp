@@ -116,12 +116,13 @@
         <%--<a href="/private/admin/delete_user">Удалить пользователя</a>--%>
       <%--</div>--%>
     <%--</security:authorize>--%>
-    <div class="navglist ">
-      <a href="/public/scerarios/spa">Тестирование работы со сценариями</a>
-    </div>
+
     <security:authorize access="hasRole('ROLE_MARKETING')">
+    <%--<div class="navglist ">--%>
+      <%--<a href="/public/scerarios/spa">Тестирование работы со сценариями</a>--%>
+    <%--</div>--%>
       <div class="navglist ">
-        <a href="/scenarios/edit">Редактирование сценариев</a>
+        <a href="/scenarios/select">Редактирование сценариев</a>
       </div>
     </security:authorize>
     <security:authorize access="hasRole('ROLE_MARKETING')">

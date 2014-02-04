@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"	"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
 <tiles-definitions>
-  <definition name="public/scerarios/spa" extends="contentOnly">
-    <put-attribute name="body" value="/WEB-INF/spa/index.jsp" />
+  <definition name="private/scenarios/edit" extends="contentOnly">
+    <put-attribute name="body" value="/WEB-INF/private/scenarios/spa/edit.jsp" />
   </definition>
 </tiles-definitions>

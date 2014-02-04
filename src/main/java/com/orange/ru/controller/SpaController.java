@@ -21,9 +21,9 @@ public class SpaController {
   public OpportunityService getOpportunityService() { return opportunityService; }
   public void setOpportunityService(OpportunityService ce) { this.opportunityService = ce; }
 
-  @RequestMapping(value = "/scenarios/edit", method = RequestMethod.GET)
+  @RequestMapping(value = "/scenarios/select", method = RequestMethod.GET)
   public ModelAndView scenariosEdit(HttpServletResponse response, Principal principal){
     Map map = opportunityService.findByUserScenariousInfoMap(principal);
-    return new ModelAndView("public/spa/heap", "map", map);
+    return new ModelAndView("scenarios/select/list", "map", map);
   }
 }

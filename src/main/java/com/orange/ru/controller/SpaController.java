@@ -24,18 +24,6 @@ public class SpaController {
   @RequestMapping(value = "/scenarios/edit", method = RequestMethod.GET)
   public ModelAndView scenariosEdit(HttpServletResponse response, Principal principal){
     Map map = opportunityService.findByUserScenariousInfoMap(principal);
-
-//    Iterator<Map.Entry<String, String>> entries = map.entrySet().iterator();
-//    while (entries.hasNext()) {
-//      Map.Entry<String, String> entry = entries.next();
-//      String key = entry.getKey();
-//      String value = entry.getValue();
-//      model.addAttribute(key, value);
-//    }
-
-    //model.addAttribute("map", map);
-
-
     return new ModelAndView("public/spa/heap", "map", map);
   }
 }

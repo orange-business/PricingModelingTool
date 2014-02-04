@@ -106,52 +106,30 @@
   <div id="leftNav">
     <a name="navigation_gauche"></a>
     <div class="titlenavg"><a href="http://www.orange-business.com/ru/content/about/about/">о компании</a></div>
-    <security:authorize access="hasRole('ROLE_ADMIN')">
-      <div class="navglist ">
-        <a href="/private/admin/create_user">Создать пользователя</a>
-      </div>
-    </security:authorize>
-    <security:authorize access="hasRole('ROLE_ADMIN')">
-      <div class="navglist ">
-        <a href="/private/admin/delete_user">Удалить пользователя</a>
-      </div>
-    </security:authorize>
-
+    <%--<security:authorize access="hasRole('ROLE_ADMIN')">--%>
+      <%--<div class="navglist ">--%>
+        <%--<a href="/private/admin/create_user">Создать пользователя</a>--%>
+      <%--</div>--%>
+    <%--</security:authorize>--%>
+    <%--<security:authorize access="hasRole('ROLE_ADMIN')">--%>
+      <%--<div class="navglist ">--%>
+        <%--<a href="/private/admin/delete_user">Удалить пользователя</a>--%>
+      <%--</div>--%>
+    <%--</security:authorize>--%>
     <div class="navglist ">
       <a href="/public/scerarios/spa">Тестирование работы со сценариями</a>
     </div>
-    <div class="navglist ">
-      <a href="/public/spa/test/polymorphism">Тест полиморфизма модели данных</a>
-    </div>
-
-    <div class="navglist ">
-      <a href="/public/spa/test/grid">Тест грида</a>
-    </div>
-
-    <div class="navglist ">
-      <a href="/public/spa/heap">Произвольный SPA</a>
-    </div>
-
-
     <security:authorize access="hasRole('ROLE_MARKETING')">
       <div class="navglist ">
         <a href="/scenarios/edit">Редактирование сценариев</a>
       </div>
     </security:authorize>
-
-
-
-
     <security:authorize access="hasRole('ROLE_MARKETING')">
       <div class="navglist ">
         <a href="/private/compendium/update">Обновление справочников</a>
       </div>
     </security:authorize>
-    <security:authorize access="hasRole('ROLE_MARKETING')">
-      <div class="navglist ">
-        <a href="/private/face/main">Тестирование интерфейса</a>
-      </div>
-    </security:authorize>
+
     <security:authorize access="hasRole('ROLE_MARKETING')">
       <div class="navglist ">
         <a href="/private/manager/client">Работа с клиентами</a>

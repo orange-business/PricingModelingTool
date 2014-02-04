@@ -11,6 +11,12 @@
   <component name="ChangeListManager">
     <list id="c22ea9b8-fc27-4e88-a814-b03254187329" name="Default" comment="" />
     <list default="true" id="9a364d0b-4d11-410d-a704-9324194ba3f8" name="target excluded" comment="target excluded">
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\spa\heap\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\spa\heap\info" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\spa\heap\views.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\spa\test\grid.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\spa\test\polymorphism.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\spa\test\views.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Entries" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Entries.Extra" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Entries.Extra.Old" afterPath="" />
@@ -18,11 +24,9 @@
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Repository" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Root" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\resources\2.xlsx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ora/ora_run_after.sql" afterPath="$PROJECT_DIR$/src/main/resources/ora/ora_run_after.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_01bvpn.sql" afterPath="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_01bvpn.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_02bvpn.sql" afterPath="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_02bvpn.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_03lines.sql" afterPath="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_03lines.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_04lines.sql" afterPath="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_04lines.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/orange/ru/controller/SpaController.java" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/controller/SpaController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/standard.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/standard.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/webmvc-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/webmvc-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="499d74af-c342-44c0-981c-0fea33eeacbf" name="Failed commit: target excluded" comment="target excluded" />
@@ -134,52 +138,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ora_run_after.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_run_after.sql">
+      <file leaf-file-name="standard.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/standard.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="1172" selection-end="1172" vertical-scroll-proportion="-16.72" vertical-offset="0" max-vertical-offset="7436">
+            <state line="131" column="0" selection-start="7894" selection-end="7894" vertical-scroll-proportion="-8.83871" vertical-offset="2608" max-vertical-offset="3916">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ora_test_scenario_01bvpn.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_01bvpn.sql">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="SpaController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/SpaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="38" selection-start="0" selection-end="9378" vertical-scroll-proportion="-4.1509433" vertical-offset="220" max-vertical-offset="2200">
+            <state line="26" column="0" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.6255924" vertical-offset="0" max-vertical-offset="633">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ora_test_scenario_02bvpn.sql" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_02bvpn.sql">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="webmvc-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config/webmvc-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="54" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.5092593" vertical-offset="88" max-vertical-offset="2090">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ora_test_scenario_03lines.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_03lines.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="16" selection-start="0" selection-end="12878" vertical-scroll-proportion="-8.8" vertical-offset="0" max-vertical-offset="2288">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ora_test_scenario_04lines.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_04lines.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="47" selection-start="881" selection-end="881" vertical-scroll-proportion="-9.68" vertical-offset="0" max-vertical-offset="2288">
+            <state line="25" column="0" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.0" vertical-offset="344" max-vertical-offset="2002">
               <folding />
             </state>
           </provider>
@@ -224,11 +204,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spa/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/start.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spa/views.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/standard.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/webmvc-config.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/models/item.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/service/OpportunityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/controller/SpaController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/Scenario.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/Product.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_01bvpn.sql" />
@@ -236,6 +213,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_03lines.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_04lines.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/ora/ora_run_after.sql" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spa/test/views.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/webmvc-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/standard.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/controller/SpaController.java" />
       </list>
     </option>
   </component>
@@ -399,106 +380,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modeling-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modeling-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PricingModelingTool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modeling-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PricingModelingTool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modeling-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PricingModelingTool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modeling-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PricingModelingTool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modeling-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PricingModelingTool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Production">
           <PATH>
@@ -655,6 +536,214 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="modeling-tool" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ora" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1136,10 +1225,24 @@
       </RunnerSettings>
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49313" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1161,24 +1264,10 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="LOCAL" value="false" />
-      <deployment />
-      <server-settings>
-        <data>
-          <option name="transportHostId" />
-        </data>
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49313" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="LoadMatrixToMongo05" type="GroovyScriptRunConfiguration" factoryName="Groovy">
@@ -1386,6 +1475,7 @@
       <workItem from="1391489913234" duration="1037000" />
       <workItem from="1391493206100" duration="2764000" />
       <workItem from="1391496674822" duration="1863000" />
+      <workItem from="1391503846080" duration="1467000" />
     </task>
     <task id="LOCAL-00001" summary="before tuning converter for client">
       <created>1363697974285</created>
@@ -1395,7 +1485,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39327000" />
+    <option name="totallyTimeSpent" value="40794000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1427,7 +1517,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.47885713" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20824525" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11271367" sideWeight="0.6702381" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49577168" sideWeight="0.3734375" order="11" side_tool="true" content_ui="tabs" />
@@ -1442,6 +1532,7 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30021143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48097253" sideWeight="0.62291664" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1782284" sideWeight="0.42761692" order="2" side_tool="true" content_ui="tabs" />
@@ -1455,12 +1546,11 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.90010405" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Jelastic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20512821" sideWeight="0.4957265" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297619" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17379679" sideWeight="0.7866379" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297619" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.47885713" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31501058" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29913607" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964823" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1546,16 +1636,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/admin/delete_user/listOrangeUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="917" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/swf/model/ProductGetConfiguredForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="63" selection-end="63" vertical-scroll-proportion="0.07197383" vertical-offset="0" max-vertical-offset="917" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/manager/client/create/create-flow.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="397" selection-end="437" vertical-scroll-proportion="0.16793893" vertical-offset="0" max-vertical-offset="917" />
@@ -1647,11 +1727,6 @@
         <state line="11" column="16" selection-start="495" selection-end="495" vertical-scroll-proportion="0.26390404" vertical-offset="0" max-vertical-offset="917" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spa/heap/info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/UploadCompendiumFilesController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="1182" selection-end="1327" vertical-scroll-proportion="-0.2511062" vertical-offset="535" max-vertical-offset="1452" />
@@ -1660,11 +1735,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/templates/tabs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="32" selection-start="244" selection-end="244" vertical-scroll-proportion="0.22347629" vertical-offset="0" max-vertical-offset="886" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spa/heap/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="43" selection-start="420" selection-end="420" vertical-scroll-proportion="0.248307" vertical-offset="0" max-vertical-offset="886" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/service/OpportunityService.java">
@@ -1702,18 +1772,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/standard.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="41" selection-start="7375" selection-end="7375" vertical-scroll-proportion="0.5544101" vertical-offset="2156" max-vertical-offset="4400" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/webmvc-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="1554" selection-end="1575" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/models/itemLines.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="917" />
@@ -1741,37 +1799,24 @@
         <state line="4" column="17" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="352" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/SpaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="64" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="1012" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/orange/ru/json/serialize/ScenarioSerializerSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="635" selection-end="635" vertical-scroll-proportion="0.1399776" vertical-offset="7" max-vertical-offset="924">
-          <folding />
-        </state>
+        <state line="15" column="22" selection-start="635" selection-end="635" vertical-scroll-proportion="0.1399776" vertical-offset="7" max-vertical-offset="924" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/orange/ru/json/deserialize/DeserializationSpock.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="492" selection-end="492" vertical-scroll-proportion="0.14781635" vertical-offset="0" max-vertical-offset="893">
-          <folding />
-        </state>
+        <state line="13" column="6" selection-start="492" selection-end="492" vertical-scroll-proportion="0.14781635" vertical-offset="0" max-vertical-offset="893" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/populate/DeserializedScenarioSaveToDbSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="630" selection-end="630" vertical-scroll-proportion="0.14394766" vertical-offset="0" max-vertical-offset="917">
-          <folding />
-        </state>
+        <state line="16" column="6" selection-start="630" selection-end="630" vertical-scroll-proportion="0.14394766" vertical-offset="0" max-vertical-offset="917" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/populate/ScenarioFromDBtoJsonSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="558" selection-end="558" vertical-scroll-proportion="0.16793893" vertical-offset="0" max-vertical-offset="917">
-          <folding />
-        </state>
+        <state line="14" column="6" selection-start="558" selection-end="558" vertical-scroll-proportion="0.16793893" vertical-offset="0" max-vertical-offset="917" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/Scenario.java">
@@ -1783,67 +1828,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="42" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
-          <folding>
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="9" column="42" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_aclear_all.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="44" selection-start="683" selection-end="683" vertical-scroll-proportion="-10.56" vertical-offset="0" max-vertical-offset="616">
-          <folding />
-        </state>
+        <state line="12" column="44" selection-start="683" selection-end="683" vertical-scroll-proportion="-10.56" vertical-offset="0" max-vertical-offset="616" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_before.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="24" selection-start="0" selection-end="8650" vertical-scroll-proportion="-6.12" vertical-offset="2641" max-vertical-offset="3520">
-          <folding />
-        </state>
+        <state line="127" column="24" selection-start="0" selection-end="8650" vertical-scroll-proportion="-6.12" vertical-offset="2641" max-vertical-offset="3520" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_run_after.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="1172" selection-end="1172" vertical-scroll-proportion="-16.72" vertical-offset="0" max-vertical-offset="7436">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_01bvpn.sql">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="38" selection-start="0" selection-end="9378" vertical-scroll-proportion="-4.1509433" vertical-offset="220" max-vertical-offset="2200">
+        <state line="19" column="0" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="7436">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_04lines.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="881" selection-end="881" vertical-scroll-proportion="-9.68" vertical-offset="0" max-vertical-offset="2288">
+        <state line="11" column="47" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="2288">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_03lines.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="0" selection-end="12878" vertical-scroll-proportion="-8.8" vertical-offset="0" max-vertical-offset="2288">
+        <state line="10" column="16" selection-start="0" selection-end="12878" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="2288">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_02bvpn.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="54" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.5092593" vertical-offset="88" max-vertical-offset="2090">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_01bvpn.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="54" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.5092593" vertical-offset="88" max-vertical-offset="2090">
+        <state line="20" column="38" selection-start="0" selection-end="9378" vertical-scroll-proportion="0.25462964" vertical-offset="220" max-vertical-offset="2200">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/webmvc-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.0" vertical-offset="344" max-vertical-offset="2002">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/standard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="0" selection-start="7894" selection-end="7894" vertical-scroll-proportion="-8.83871" vertical-offset="2608" max-vertical-offset="3916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/SpaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.6255924" vertical-offset="0" max-vertical-offset="633">
           <folding />
         </state>
       </provider>

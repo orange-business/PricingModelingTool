@@ -11,107 +11,6 @@
   <component name="ChangeListManager">
     <list id="c22ea9b8-fc27-4e88-a814-b03254187329" name="Default" comment="" />
     <list default="true" id="9a364d0b-4d11-410d-a704-9324194ba3f8" name="target excluded" comment="target excluded">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/swf/model/ScenariousSelectForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/controller/SpaController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/templates/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/templates/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/select/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_02bvpn.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_03lines.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_04lines.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_heap.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/start.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/templates/tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/select/views.xml" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Entries" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Entries.Extra" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Entries.Extra.Old" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Entries.Old" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Repository" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Root" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\groovy_tools\business_vpn\Tariffs.csv" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test1\CEO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test1\CVS\Entries" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test1\CVS\Entries.Extra" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test1\CVS\Entries.Extra.Old" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test1\CVS\Entries.Old" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test1\CVS\Repository" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test1\CVS\Root" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test1\Company.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test1\Employee.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test1\EmployeeAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test1\Manager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test1\ManagerAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test1\TypeHierarchyAdapterTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test1\test.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test2\CVS\Entries" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test2\CVS\Entries.Extra" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test2\CVS\Entries.Extra.Old" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test2\CVS\Entries.Old" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test2\CVS\Repository" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test2\CVS\Root" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test2\TypeAdapterPrecedenceTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test3\CVS\Entries" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test3\CVS\Entries.Extra" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test3\CVS\Entries.Extra.Old" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test3\CVS\Entries.Old" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test3\CVS\Repository" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test3\CVS\Root" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test3\JsonReaderTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test4\CVS\Entries" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test4\CVS\Entries.Extra" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test4\CVS\Entries.Extra.Old" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test4\CVS\Entries.Old" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test4\CVS\Repository" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test4\CVS\Root" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test4\TypeTokenTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test5\CVS\Entries" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test5\CVS\Entries.Extra" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test5\CVS\Entries.Extra.Old" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test5\CVS\Entries.Old" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test5\CVS\Repository" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test5\CVS\Root" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test5\Event.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\gson_test5\RawCollectionsExample.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\resources\2.xlsx" afterPath="" />
-      <change type="MOVED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\resources\ora\ora_test_data1.sql" afterPath="$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_01bvpn.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/AccessLines.java" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/AccessLines.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/models/Item.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/models/Item.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyLog.log" afterPath="$PROJECT_DIR$/MyLog.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/orange/ru/service/OpportunityService.java" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/service/OpportunityService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/orange/ru/service/OpportunityServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/service/OpportunityServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/orange/ru/json/serialize/ScenarioSerializerSpec.groovy" afterPath="$PROJECT_DIR$/src/test/java/com/orange/ru/json/serialize/ScenarioSerializerSpec.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/app.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/backbone/backbone-min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/lib/backbone/backbone-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/backbone/backbone-optamd3-min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/lib/backbone/backbone-optamd3-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/backbone/backbone.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/lib/backbone/backbone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/backbone/backbone.localStorage.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/lib/backbone/backbone.localStorage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/models/factory.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/models/factory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spa/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spa/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spa/heap/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spa/heap/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/models/itemBVpn.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/models/itemBVpn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/models/itemLines.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/models/itemLines.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/jquery-2.1.0.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/lib/jquery-2.1.0.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jtest1.log" afterPath="$PROJECT_DIR$/jtest1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/backbone/localstorage.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/lib/backbone/localstorage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modeling-tool.iml" afterPath="$PROJECT_DIR$/modeling-tool.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/qunit/qunit-1.13.0.css" afterPath="$PROJECT_DIR$/src/main/webapp/js/lib/qunit/qunit-1.13.0.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/qunit/qunit-1.13.0.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/lib/qunit/qunit-1.13.0.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/require/require.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/lib/require/require.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenario_serializer.log" afterPath="$PROJECT_DIR$/scenario_serializer.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/standard.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/standard.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/templates/stats.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/templates/stats.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/tests/test-polymorphism.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/tests/test-polymorphism.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/require/text.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/lib/require/text.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/todo.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/todo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/templates/todos.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/templates/todos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/underscore.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/lib/underscore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spa/views.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spa/views.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/webmvc-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/webmvc-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="499d74af-c342-44c0-981c-0fea33eeacbf" name="Failed commit: target excluded" comment="target excluded" />
@@ -131,14 +30,14 @@
     <splitter proportion="0.5" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/modeling-tool$BusinessVpnTariffsReadConverterTest_testConvert.coverage" NAME="BusinessVpnTariffsReadConverterTest.testConvert Coverage Results" MODIFIED="1375249756553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.orange.ru.mongodb.converter.*</FILTER>
+    <SUITE FILE_PATH="coverage/modeling-tool$LocalDateTimeSpec.coverage" NAME="LocalDateTimeSpec Coverage Results" MODIFIED="1385113516603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.orange.ru.util.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/modeling-tool$ExcelTestDemo02.coverage" NAME="ExcelTestDemo02 Coverage Results" MODIFIED="1379404562605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.orange.ru.excel.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/modeling-tool$LocalDateTimeSpec.coverage" NAME="LocalDateTimeSpec Coverage Results" MODIFIED="1385113516603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.orange.ru.util.*</FILTER>
+    <SUITE FILE_PATH="coverage/modeling-tool$BusinessVpnTariffsReadConverterTest_testConvert.coverage" NAME="BusinessVpnTariffsReadConverterTest.testConvert Coverage Results" MODIFIED="1375249756553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.orange.ru.mongodb.converter.*</FILTER>
     </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -226,7 +125,7 @@
       <file leaf-file-name="list.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/select/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="352">
+            <state line="4" column="17" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -235,7 +134,7 @@
       <file leaf-file-name="SpaController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/SpaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="64" selection-start="615" selection-end="615" vertical-scroll-proportion="0.31188658" vertical-offset="0" max-vertical-offset="1012">
+            <state line="24" column="80" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.44203684" vertical-offset="0" max-vertical-offset="923">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -246,12 +145,8 @@
       <file leaf-file-name="OpportunityServiceImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/service/OpportunityServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="3" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="638" max-vertical-offset="3696">
-              <folding>
-                <marker date="1391436728367" expanded="true" signature="1125:1631" placeholder="select opp.I..OPPORTUNITY_SCENARIO..." />
-                <marker date="1391436728367" expanded="true" signature="1281:1399" placeholder="select p.ID ..OPPORTUNITY..." />
-                <marker date="1391436728367" expanded="true" signature="1420:1545" placeholder="select s.ID ..SCENARIO..." />
-              </folding>
+            <state line="54" column="3" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2856">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -390,10 +285,10 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1928" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -467,6 +362,166 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="resources">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="resources">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -923,166 +978,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modeling-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modeling-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Production">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="resources">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="All">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="resources">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1626,8 +1521,8 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Tomcat Test Local" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 71" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8082/" />
+    <configuration default="false" name="Tomcat Test Local" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <option name="COMMON_VM_ARGUMENTS" value="-Drebel.log=true -Drebel.log.file=c:\download\jrebel.log" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -1639,7 +1534,6 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_modeling-tool_2" />
-        <option name="HTTP_PORT" value="8082" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -1753,7 +1647,6 @@
       </ConfigurationWrapper>
       <method>
         <option name="Make" enabled="false" />
-        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
     <list size="8">
@@ -1807,6 +1700,8 @@
       <workItem from="1391434988573" duration="602000" />
       <workItem from="1391435638862" duration="5592000" />
       <workItem from="1391489913234" duration="1037000" />
+      <workItem from="1391491522782" duration="34000" />
+      <workItem from="1391491621304" duration="359000" />
     </task>
     <task id="LOCAL-00001" summary="before tuning converter for client">
       <created>1363697974285</created>
@@ -1816,7 +1711,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34700000" />
+    <option name="totallyTimeSpent" value="35093000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1839,8 +1734,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="false" />
+    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4346847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1857,8 +1752,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45833334" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5405405" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981783" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19583334" sideWeight="0.5371622" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4651163" sideWeight="0.32657418" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19583334" sideWeight="0.5371622" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4646997" sideWeight="0.32657418" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1867,6 +1762,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48097253" sideWeight="0.62291664" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1782284" sideWeight="0.42761692" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2908654" sideWeight="0.48931623" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1782284" sideWeight="0.40089086" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22008547" sideWeight="0.49786323" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14705883" sideWeight="0.67094016" order="3" side_tool="false" content_ui="tabs" />
@@ -1882,7 +1778,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46194503" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29913607" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2908654" sideWeight="0.48931623" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964823" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2087,9 +1982,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/Opportunity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="-0.14394766" vertical-offset="352" max-vertical-offset="1914">
-          <folding />
-        </state>
+        <state line="16" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="-0.14394766" vertical-offset="352" max-vertical-offset="1914" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/swf/model/ScenariousSelectForm.java">
@@ -2104,9 +1997,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/compendium/BusinessVpnTariffsHandlerImpl.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="275" column="22" selection-start="13811" selection-end="13811" vertical-scroll-proportion="0.0" vertical-offset="4266" max-vertical-offset="6556">
-          <folding />
-        </state>
+        <state line="275" column="22" selection-start="13811" selection-end="13811" vertical-scroll-proportion="0.0" vertical-offset="4266" max-vertical-offset="6556" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/UploadedFile.java">
@@ -2223,12 +2114,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/service/OpportunityServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="3" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3300">
-          <folding>
-            <marker date="1391436728367" expanded="true" signature="1125:1631" placeholder="select opp.I..OPPORTUNITY_SCENARIO..." />
-            <marker date="1391436728367" expanded="true" signature="1281:1399" placeholder="select p.ID ..OPPORTUNITY..." />
-            <marker date="1391436728367" expanded="true" signature="1420:1545" placeholder="select s.ID ..SCENARIO..." />
-          </folding>
+        <state line="54" column="3" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2856">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2241,7 +2128,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/SpaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="64" selection-start="615" selection-end="615" vertical-scroll-proportion="0.31188658" vertical-offset="0" max-vertical-offset="1012">
+        <state line="24" column="80" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.44203684" vertical-offset="0" max-vertical-offset="923">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

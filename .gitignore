@@ -1,14 +1,13 @@
-target
-out
-classes
-test_product
+.idea/
+target/
+out/
+classes/
+test_product/
 .classpath
 .project
 .settings
 tomcat.*
-.idea
 *.iml
-.idea/workspace.xml
 *.class
 
 # Package Files #

@@ -42,14 +42,13 @@ public class OpportunityServiceImpl implements OpportunityService {
    * пользователю, который его создал. */
   public Map findByUserScenariousInfoMap(Principal currentUser){
     String email = currentUser.getName();
-    List<String[]> lst = em.createNativeQuery(findByUserScenariousQuery).setParameter(1, email).getResultList();
+    List<Object[]> lst = em.createNativeQuery(findByUserScenariousQuery).setParameter(1, email).getResultList();
     Map map = new HashMap<String, String>();
-    for (String[] arr: lst){
-      map.put("/scenarios/edit/" + arr[1],"сценарий " + arr[0] + ", сценарий " + arr[1] + ", созданный " + arr[2]);
+    for (Object[] arr: lst){
+      map.put("/private/scenarios/edit?id=" + arr[1],"сценарий " + arr[0] + ", сценарий " + arr[1] + ", созданный " + arr[2]);
     }
     return map;
   }
-
 
   @Transactional(readOnly = true)
   public Opportunity findById(long id) {

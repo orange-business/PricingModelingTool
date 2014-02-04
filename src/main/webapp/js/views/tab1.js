@@ -1,62 +1,46 @@
 ﻿"use strict";
-
-define(['data/tab1data', 'backbone', 'underscore', 'webix'], function (tabData, Backbone, _) {
-
-    // ---------------------------------------------
-    //              Tab 1
-    // ---------------------------------------------
-
-    var getFilms = function(){
-        var FilmRecord = Backbone.Model.extend({});
-        var FilmList = Backbone.Collection.extend({
-            model: FilmRecord,
-            url: "/js/data/webix-films.json"
-        });
-
-        var films = new FilmList();
-        films.fetch(); //getting collection data
-        return films;
-    };
-
-    // ----------------------------------------------------------
-
-
-
-    // ----------------------------------------------------------
-
-
-    var view_tab_1 = {
-        view: "datatable",
-        columns: [
-			{ id: "rank", header: "", css: "rank", width: 50 },
-			{ id: "id", header: "id", width: 50 },
-			{ id: "title", header: "Фильм", width: 200 },
-			{ id: "type", header: "type", width: 80 },
-			{ id: "product.code", header: "product.code", width: 100 }
-		],
-        autoheight: true,
-        autowidth: true,
-	};
-
-    // ---------------------------------------------
-    //              Backbone View:
-    // ---------------------------------------------
-
-    return Backbone.View.extend({
-        render: function() {
-            var webixView = new WebixView({
-			    config: view_tab_1,
-			    el: this.el
-		    });
-            webixView.render();
-            //
-            //var films = getFilms();
-            //webixView.root.sync(films2);
-            webixView.root.sync(tabData);
-            //
-            return this;
-        },
-    });
-
+define(['data/test_pmt', 'backbone', 'underscore', 'webix'], function (data, Backbone, _) {
+  // ---------------------------------------------
+  //              Tab 1
+  // ---------------------------------------------
+  var view_tab_1 = {
+    view: "datatable",
+    columns: [
+      { id: "itemId", header: "id", width: 50 },
+      //{ id: "product.site.address", header: "Site address", width: 150 },  // - так не понимает
+      { id: "productSiteAddress", header: "Site address", width: 150 },
+      { id: "productTown", header: "Город PE", width: 100 },
+      { id: "portCoverage", header: "вид порта", width: 100 },
+      { id: "portType", header: "тип порта", width: 100 },
+      { id: "portSpeed", header: "скорость", width: 50 },
+      { id: "portTarifficationScheme", header: "схема тарификации", width: 50 },
+      { id: "out_standard_price_payment_onetime_money", header: "инсталляция", width: 100 },
+      { id: "out_standard_cost_monthly_money", header: "ежемесячно", width: 100 },
+      { id: "ref_tariff_ubb_data3_1MB_money", header: "D3", width: 100 },
+      { id: "ref_tariff_ubb_data2_1MB_money", header: "D2", width: 100 },
+      { id: "ref_tariff_ubb_data1_1MB_money", header: "D1", width: 100 },
+      { id: "ref_tariff_ubb_voice_1MB_money", header: "Voice", width: 100 },
+      { id: "ref_tariff_ubb_video_1MB_money", header: "Video", width: 100 },
+    ],
+    autoheight: true,
+    autowidth: false
+  };
+  // ---------------------------------------------
+  //              Backbone View:
+  // ---------------------------------------------
+  return Backbone.View.extend({
+    render: function () {
+      var webixView = new WebixView({
+        config: view_tab_1,
+        el: this.el
+      });
+      webixView.render();
+      //
+      //var films = getFilms();
+      //webixView.root.sync(films2);
+      webixView.root.sync(data.businessVpn);
+      //
+      return this;
+    }
+  });
 });
-

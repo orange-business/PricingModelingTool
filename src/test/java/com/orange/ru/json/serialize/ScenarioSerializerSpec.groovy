@@ -22,23 +22,11 @@ class ScenarioSerializerSpec extends Specification {
 
   def setup(){
     LOG.debug("ScenarioSerializerSpec works.")
-    scenario = (Scenario) scenarioService.findById(27)
+    scenario = (Scenario) scenarioService.findById(1)
     LOG.debug("Product is " + scenario.productItems.getAt(0).product);
 
-//    println "============================================================"
-//    for (ProductItem item: scenario.productItems){
-//      println item
-//    }
-//    println "============================================================"
-
-//    Iterator<Integer> iterator = scenario.productItems.iterator();
-//    while(iterator.hasNext()) {
-//      ProductItem item1 = iterator.next();
-//      println item1
-//    }
-//    println "============================================================"
-
-
+    println "============================================================"
+    println "productItems.size = " +  scenario.productItems.size();
     println "============================================================"
     Iterator<Integer> iterator2 = scenario.productItems.iterator();
     while(iterator2.hasNext()) {

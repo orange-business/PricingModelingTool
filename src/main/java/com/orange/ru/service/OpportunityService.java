@@ -5,7 +5,9 @@ import com.orange.ru.domain.Opportunity;
 import com.orange.ru.swf.model.OrderForm;
 import org.springframework.binding.message.MessageContext;
 import org.springframework.webflow.execution.Event;
+import java.security.Principal;
 import java.util.List;
+import java.util.Map;
 
 public interface OpportunityService {
   public Opportunity findById(long id);
@@ -18,4 +20,5 @@ public interface OpportunityService {
   public Event validateNote(OrderForm form, MessageContext messageContext);
   public Event validateClient(Long clientId, MessageContext messageContext);
   public Long findByDetailsId(Long orderDetailsId);
+  public Map findByUserScenariousInfoMap(Principal currentUser);
 }

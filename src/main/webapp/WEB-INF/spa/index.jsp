@@ -1,13 +1,14 @@
 <%--
   SPA-архитектура. Заглавная страница.
 --%>
-<div id="main">
-  <div id="menu"></div>
-  <div id="content"></div>
-  <div id="footer"></div>
-  <div id="spa">
-    <div class="spa-slider"></div>
-  </div>
+<div id="app">
+  <div class="app-header box"></div>
+  <div class="app-menu box"></div>
+  <div class="app-tabs box"></div>
+  <div class="app-footer box"></div>
 </div>
-<link rel="stylesheet" href="/css/spa.css">
+
+<link href="/js/lib/jqueryui/jquery-ui.css" rel="stylesheet" type="text/css" />
+<link href="/js/lib/webix/webix.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" />
+
 <script data-main="/js/start" src="/js/lib/require/require.js"></script>

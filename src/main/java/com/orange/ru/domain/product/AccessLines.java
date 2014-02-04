@@ -2,7 +2,6 @@ package com.orange.ru.domain.product;
 
 import com.orange.ru.domain.Site;
 import com.orange.ru.domain.product.enums.LinesType;
-
 import javax.persistence.*;
 import java.util.*;
 import static com.orange.ru.core.Utils.compareObjects;

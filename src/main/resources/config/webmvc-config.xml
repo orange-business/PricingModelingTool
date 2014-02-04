@@ -20,7 +20,7 @@
   <mvc:view-controller path="/public/logoutSuccess" view-name="public/logoutSuccess"/>
   <mvc:view-controller path="/public/accessDenied" view-name="public/accessDenied"/>
   <mvc:view-controller path="/public/static/glossary" view-name="public/static/glossary"/>
-  <mvc:view-controller path="/public/spa" view-name="public/spa"/>
+  <mvc:view-controller path="/public/scerarios/spa" view-name="public/scerarios/spa"/>
   <mvc:view-controller path="/public/spa/test/polymorphism" view-name="public/spa/test/polymorphism"/>
   <mvc:view-controller path="/public/spa/test/grid" view-name="public/spa/test/grid"/>
 

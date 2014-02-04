@@ -118,7 +118,7 @@
     </security:authorize>
 
     <div class="navglist ">
-      <a href="/public/spa">Тестирование SPA</a>
+      <a href="/public/scerarios/spa">Тестирование работы со сценариями</a>
     </div>
     <div class="navglist ">
       <a href="/public/spa/test/polymorphism">Тест полиморфизма модели данных</a>
@@ -131,6 +131,14 @@
     <div class="navglist ">
       <a href="/public/spa/heap">Произвольный SPA</a>
     </div>
+
+
+    <security:authorize access="hasRole('ROLE_MARKETING')">
+      <div class="navglist ">
+        <a href="/scenarios/edit">Редактирование сценариев</a>
+      </div>
+    </security:authorize>
+
 
 
 

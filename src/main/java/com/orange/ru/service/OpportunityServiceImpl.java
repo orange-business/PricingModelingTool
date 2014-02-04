@@ -12,7 +12,10 @@ import org.springframework.webflow.action.EventFactorySupport;
 import org.springframework.webflow.execution.Event;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import java.security.Principal;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 @Service("opportunityService")
@@ -25,6 +28,29 @@ public class OpportunityServiceImpl implements OpportunityService {
   public void setEntityManager(EntityManager em) {
     this.em = em;
   }
+
+  // номер опортьюнити, номер сценария, дата создания сценария
+  private String findByUserScenariousQuery = "select opp.ID OPPORTUNITY_ID, sce.ID SCENARIO_ID, TO_CHAR(sce.LAST_UPDATE_DATE, 'DD MONTH YYYY') " +
+      "from OPPORTUNITY_SCENARIO opp_sce,\n" +
+      "(select p.ID ID, p.CUSTOMER_ID CUSTOMER_ID, p.EXTERNAL_ID EXTERNAL_ID, p.CREATION_DATE CREATION_DATE from OPPORTUNITY p) opp, \n" +
+      "(select s.ID ID, s.OWNER_EMAIL email, s.LAST_UPDATE_DATE LAST_UPDATE_DATE \n" +
+      "from SCENARIO s where s.OWNER_EMAIL = ?) sce\n" +
+      "where opp_sce.OPPORTUNITY_ID=opp.ID and opp_sce.SCENARIO_ID = sce.ID";
+
+
+  /** Для того, чтобы перейти к SPA редактированию сценария надо сначала выбрать сценарий по
+   * пользователю, который его создал. */
+  public Map findByUserScenariousInfoMap(Principal currentUser){
+    String email = currentUser.getName();
+    List<String[]> lst = em.createNativeQuery(findByUserScenariousQuery).setParameter(1, email).getResultList();
+    Map map = new HashMap<String, String>();
+    for (String[] arr: lst){
+      map.put("/scenarios/edit/" + arr[1],"сценарий " + arr[0] + ", сценарий " + arr[1] + ", созданный " + arr[2]);
+    }
+    return map;
+  }
+
+
   @Transactional(readOnly = true)
   public Opportunity findById(long id) {
     return em.find(Opportunity.class, id);

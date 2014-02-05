@@ -11,13 +11,8 @@
   <component name="ChangeListManager">
     <list id="c22ea9b8-fc27-4e88-a814-b03254187329" name="Default" comment="" />
     <list default="true" id="9a364d0b-4d11-410d-a704-9324194ba3f8" name="target excluded" comment="target excluded">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/lib/backbone/backbone-nested.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/lib/backbone/backbone.chosen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/lib/backbone/backbone.mutators.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/data/test_01_raw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/data/test_02_raw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/data/test_films.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/data/test_pmt.js" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\java\com\orange\ru\controller\LoadTestJsonController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\java\com\orange\ru\controller\TestController.java" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\face\CVS\Entries" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\face\CVS\Entries.Extra" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\face\CVS\Entries.Extra.Old" afterPath="" />
@@ -30,11 +25,6 @@
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\face\main\CVS\Entries.Old" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\face\main\CVS\Repository" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\face\main\CVS\Root" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\face\main\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\face\main\main-flow.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\face\main\views.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\data\webix-films.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\main.js" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Entries" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Entries.Extra" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Entries.Extra.Old" afterPath="" />
@@ -42,18 +32,10 @@
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Repository" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Root" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\resources\2.xlsx" afterPath="" />
-      <change type="MOVED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\data\webix-small_film_set.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/data/test_films_raw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/app.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/footer.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/footer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/header.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/menu.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/start.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/start.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/tab1.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/tab1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/data/tab1data.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/data/tab1data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/tab2.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/tab2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/tab3.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/tab3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/templates/tabs.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/templates/tabs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/tabs.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/tabs.js" />
+      <change type="MOVED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\java\com\orange\ru\controller\UploadedFile.java" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/controller/util/UploadedFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/orange/ru/json/deserialize/DeserializationSpock.groovy" afterPath="$PROJECT_DIR$/src/test/java/com/orange/ru/json/deserialize/DeserializationSpock.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/orange/ru/controller/UploadCompendiumFilesController.java" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/controller/UploadCompendiumFilesController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenario_serializer.log" afterPath="$PROJECT_DIR$/scenario_serializer.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="499d74af-c342-44c0-981c-0fea33eeacbf" name="Failed commit: target excluded" comment="target excluded" />
@@ -165,95 +147,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/app.js">
+      <file leaf-file-name="ScenarioController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/ScenarioController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="60" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+            <state line="22" column="2" selection-start="974" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/header.js">
+      <file leaf-file-name="ScenarioDeserializerImpl.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/json/ScenarioDeserializerImpl.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+            <state line="14" column="33" selection-start="493" selection-end="493" vertical-scroll-proportion="0.26390404" vertical-offset="0" max-vertical-offset="917">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/footer.js">
+      <file leaf-file-name="DeserializationSpock.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/orange/ru/json/deserialize/DeserializationSpock.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/menu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="22" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/spa/edit.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="27" selection-start="163" selection-end="163" vertical-scroll-proportion="-4.2580647" vertical-offset="0" max-vertical-offset="418">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/select/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="12" selection-start="349" selection-end="349" vertical-scroll-proportion="-4.2580647" vertical-offset="0" max-vertical-offset="264">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpaController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/SpaController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="29" selection-start="1267" selection-end="1288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpportunityServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/service/OpportunityServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="38" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3278">
-              <folding>
-                <marker date="1391510089361" expanded="true" signature="1125:1631" placeholder="select opp.I..OPPORTUNITY_SCENARIO..." />
-                <marker date="1391510089361" expanded="true" signature="1281:1399" placeholder="select p.ID ..OPPORTUNITY..." />
-                <marker date="1391510089361" expanded="true" signature="1420:1545" placeholder="select s.ID ..SCENARIO..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_01_raw.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/data/test_01_raw.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="272" selection-end="272" vertical-scroll-proportion="0.1460177" vertical-offset="0" max-vertical-offset="13442">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tab1.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="37" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+            <state line="26" column="28" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="968">
               <folding />
             </state>
           </provider>
@@ -277,8 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/AccessLines.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/orange/ru/json/serialize/ScenarioSerializerSpec.groovy" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/models/factory.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/models/Item.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/models/itemLines.js" />
@@ -317,7 +230,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/spa/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/start.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/views/app.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/data/test_01_raw.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/data/test_02_raw.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/data/test_films_raw.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/views/tab1.js" />
@@ -328,6 +240,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/js/views/header.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/views/tabs.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/data/tab1data.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/data/test_01_raw.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/controller/util/UploadedFile.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orange/ru/json/deserialize/DeserializationSpock.groovy" />
       </list>
     </option>
   </component>
@@ -491,6 +406,270 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="populate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deserialize" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Production">
           <PATH>
@@ -637,57 +816,24 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modeling-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modeling-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modeling-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modeling-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PricingModelingTool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
-    <property name="project.structure.proportion" value="0.20507812" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="Persistence.ERD.GroupObjects" value="false" />
+    <property name="project.structure.proportion" value="0.20507812" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="Persistence.ERD.MergeEmbedded" value="false" />
+    <property name="Persistence.ERD.GroupObjects" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="Persistence.ERD.MergeEmbedded" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../booking-mvc" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -698,17 +844,16 @@
     <property name="Persistence.ERD.SimpleMode" value="false" />
     <property name="options.lastSelected" value="reference.projectsettings.vcs.cvs.options" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="project.structure.side.proportion" value="0.22047244" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="Persistence.ERD.MergeInherited" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="options.searchVisible" value="true" />
+    <property name="Persistence.ERD.MergeInherited" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -750,18 +895,7 @@
       <recent name="com.orange.ru.groovy.product" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat Test Local">
-    <configuration default="false" name="BusinessVpnCosts" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="modeling-tool" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/test/java/groovy_tools/business_vpn/BusinessVpnCosts.groovy" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src/test/java/groovy_tools/business_vpn" />
-      <setting name="debug" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.DeserializationSpock.Имитация сохранение в базе Scenario полученного из интерфейса">
     <configuration default="false" name="BusinessVpnCosts1" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="modeling-tool" />
       <setting name="path" value="file://$PROJECT_DIR$/src/test/java/groovy_tools/business_vpn/BusinessVpnCosts1.groovy" />
@@ -826,6 +960,34 @@
       <option name="MAIN_CLASS_NAME" value="com.orange.ru.json.serialize.ScenarioSerializerSpec" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DeserializationSpock.Имитация сохранение в базе Scenario полученного из интерфейса" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.orange.ru.json.deserialize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="modeling-tool" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.orange.ru.json.deserialize" />
+      <option name="MAIN_CLASS_NAME" value="com.orange.ru.json.deserialize.DeserializationSpock" />
+      <option name="METHOD_NAME" value="Имитация сохранение в базе Scenario полученного из интерфейса" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -1149,26 +1311,6 @@
       </RunnerSettings>
       <method />
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="LOCAL" value="false" />
-      <deployment />
-      <server-settings>
-        <data>
-          <option name="transportHostId" />
-        </data>
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49313" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -1194,6 +1336,32 @@
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49313" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tomcat 7 JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:8080/">
+      <mapping url="http://localhost:8080" local-file="$PROJECT_DIR$/src/main/webapp" />
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="false" name="LoadMatrixToMongo05" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="modeling-tool" />
       <setting name="path" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/groovy/LoadMatrixToMongo05.groovy" />
@@ -1205,13 +1373,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Tomcat 7 JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:8080/">
-      <mapping url="http://localhost:8080" local-file="$PROJECT_DIR$/src/main/webapp" />
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Tomcat Test Local" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 71" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+    <configuration default="false" name="Tomcat Test Local" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 71" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8082/" />
       <option name="COMMON_VM_ARGUMENTS" value="-Drebel.log=true -Drebel.log.file=c:\download\jrebel.log" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -1342,18 +1504,18 @@
       </method>
     </configuration>
     <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="Groovy.LoadMatrixToMongo05" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Tomcat 7 JavaScript" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Tomcat 7 JavaScript" />
+      <item index="1" class="java.lang.String" itemvalue="Groovy.LoadMatrixToMongo05" />
       <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Tomcat Test Local" />
-      <item index="3" class="java.lang.String" itemvalue="Groovy.BusinessVpnCosts" />
-      <item index="4" class="java.lang.String" itemvalue="Groovy.BusinessVpnCosts1" />
-      <item index="5" class="java.lang.String" itemvalue="Groovy.BusinessVpnTariffs" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.AddBvpnToExistingScenarioToDbSpec" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.ScenarioSerializerSpec" />
+      <item index="3" class="java.lang.String" itemvalue="Groovy.BusinessVpnCosts1" />
+      <item index="4" class="java.lang.String" itemvalue="Groovy.BusinessVpnTariffs" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.AddBvpnToExistingScenarioToDbSpec" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.ScenarioSerializerSpec" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.DeserializationSpock.Имитация сохранение в базе Scenario полученного из интерфейса" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ScenarioSerializerSpec" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DeserializationSpock.Имитация сохранение в базе Scenario полученного из интерфейса" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1388,22 +1550,7 @@
       <changelist id="6507903a-9447-41ee-803b-205f8d8a36a5" name="Rejected commit: target excluded" comment="target excluded" />
       <created>1363413776927</created>
       <updated>1363698004320</updated>
-      <workItem from="1391404915089" duration="9521000" />
-      <workItem from="1391421874426" duration="5264000" />
-      <workItem from="1391427202068" duration="336000" />
-      <workItem from="1391427578572" duration="645000" />
-      <workItem from="1391428265116" duration="1856000" />
-      <workItem from="1391430163941" duration="4616000" />
-      <workItem from="1391434988573" duration="602000" />
-      <workItem from="1391435638862" duration="5592000" />
-      <workItem from="1391489913234" duration="1037000" />
-      <workItem from="1391493206100" duration="2764000" />
-      <workItem from="1391496674822" duration="1863000" />
-      <workItem from="1391503846080" duration="1467000" />
-      <workItem from="1391505586058" duration="366000" />
-      <workItem from="1391505988047" duration="2666000" />
-      <workItem from="1391508787402" duration="1738000" />
-      <workItem from="1391510574474" duration="10413000" />
+      <workItem from="1391575901196" duration="3294000" />
     </task>
     <task id="LOCAL-00001" summary="before tuning converter for client">
       <created>1363697974285</created>
@@ -1413,7 +1560,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55977000" />
+    <option name="totallyTimeSpent" value="59271000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1436,8 +1583,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4346847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1454,18 +1601,17 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45833334" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5405405" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981783" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19583334" sideWeight="0.5371622" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1953125" sideWeight="0.5371622" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.7515856" sideWeight="0.32657418" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30021143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48097253" sideWeight="0.62291664" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1782284" sideWeight="0.42761692" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2908654" sideWeight="0.48931623" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29069766" sideWeight="0.48931623" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1782284" sideWeight="0.40089086" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22008547" sideWeight="0.49786323" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14705883" sideWeight="0.67094016" order="3" side_tool="false" content_ui="tabs" />
@@ -1474,11 +1620,12 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.90010405" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Jelastic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20512821" sideWeight="0.4957265" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17379679" sideWeight="0.7866379" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297619" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17379679" sideWeight="0.7866379" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.47885713" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30021143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29913607" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964823" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1564,293 +1711,264 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orange/ru/json/deserialize/DeserializationSpock.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="492" selection-end="492" vertical-scroll-proportion="0.14781635" vertical-offset="0" max-vertical-offset="893" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/populate/DeserializedScenarioSaveToDbSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="630" selection-end="630" vertical-scroll-proportion="0.14394766" vertical-offset="0" max-vertical-offset="917" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/populate/ScenarioFromDBtoJsonSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="558" selection-end="558" vertical-scroll-proportion="0.16793893" vertical-offset="0" max-vertical-offset="917" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/Scenario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="36" selection-start="2248" selection-end="2248" vertical-scroll-proportion="0.95965105" vertical-offset="198" max-vertical-offset="1936">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="42" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_aclear_all.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="44" selection-start="683" selection-end="683" vertical-scroll-proportion="-10.56" vertical-offset="0" max-vertical-offset="616" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_before.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="24" selection-start="0" selection-end="8650" vertical-scroll-proportion="-6.12" vertical-offset="2641" max-vertical-offset="3520" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_run_after.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="7436" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_04lines.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="2288" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_03lines.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="0" selection-end="12878" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="2288" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_02bvpn.sql">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="54" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.5092593" vertical-offset="88" max-vertical-offset="2090" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ora/ora_test_scenario_01bvpn.sql">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="38" selection-start="0" selection-end="9378" vertical-scroll-proportion="0.25462964" vertical-offset="220" max-vertical-offset="2200" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/standard.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="34" selection-start="7649" selection-end="7649" vertical-scroll-proportion="0.0" vertical-offset="2310" max-vertical-offset="3938">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/webmvc-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="30" selection-start="1556" selection-end="1556" vertical-scroll-proportion="0.38940397" vertical-offset="212" max-vertical-offset="2024">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/spa/views.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/select/views.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1065" column="72" selection-start="55382" selection-end="55382" vertical-scroll-proportion="0.0" vertical-offset="23298" max-vertical-offset="46090">
-          <folding>
-            <marker date="1391522617950" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/manager/client/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="917">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/manager/compendium/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="550">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/manager/compendium/note.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="917">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/contentOnly.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="41" selection-start="2168" selection-end="2168" vertical-scroll-proportion="-19.35484" vertical-offset="82" max-vertical-offset="968">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/models/Item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="917">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/start.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="3" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0" vertical-offset="161" max-vertical-offset="1078">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/data/test_02_raw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/data/test_films.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="917">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/data/test_films_raw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="50" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="858">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/templates/tabs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="35" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0744921" vertical-offset="0" max-vertical-offset="886">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/grid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="917">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/data/tab1data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="3" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.9520174" vertical-offset="7" max-vertical-offset="1012">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tabs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="726">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1034">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+        <state line="8" column="60" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="616">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="396">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/app.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/footer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="60" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="22" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="924">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/spa/edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="163" selection-end="163" vertical-scroll-proportion="-4.2580647" vertical-offset="0" max-vertical-offset="418">
+        <state line="6" column="27" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="418">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/select/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="349" selection-end="349" vertical-scroll-proportion="-4.2580647" vertical-offset="0" max-vertical-offset="264">
+        <state line="6" column="12" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="264">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/SpaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="1267" selection-end="1288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
+        <state line="26" column="29" selection-start="1267" selection-end="1288" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="748">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/service/OpportunityServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="38" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3278">
+        <state line="44" column="38" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.0" vertical-offset="968" max-vertical-offset="3674">
           <folding>
-            <marker date="1391510089361" expanded="true" signature="1125:1631" placeholder="select opp.I..OPPORTUNITY_SCENARIO..." />
-            <marker date="1391510089361" expanded="true" signature="1281:1399" placeholder="select p.ID ..OPPORTUNITY..." />
-            <marker date="1391510089361" expanded="true" signature="1420:1545" placeholder="select s.ID ..SCENARIO..." />
+            <marker date="1391510089361" expanded="true" signature="-1:-1" placeholder="select opp.I..OPPORTUNITY_SCENARIO..." />
+            <marker date="1391510089361" expanded="true" signature="-1:-1" placeholder="select p.ID ..OPPORTUNITY..." />
+            <marker date="1391510089361" expanded="true" signature="-1:-1" placeholder="select s.ID ..SCENARIO..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/data/test_01_raw.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="272" selection-end="272" vertical-scroll-proportion="0.1460177" vertical-offset="0" max-vertical-offset="13442">
+        <state line="6" column="31" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="13442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="37" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="50" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/templates/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="35" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0744921" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/grid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/data/tab1data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="3" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.9520174" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tabs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="25" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="29" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="60" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="22" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/spa/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/select/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/service/OpportunityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="38" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.0" vertical-offset="968" max-vertical-offset="3674">
+          <folding>
+            <marker date="1391510089361" expanded="true" signature="-1:-1" placeholder="select opp.I..OPPORTUNITY_SCENARIO..." />
+            <marker date="1391510089361" expanded="true" signature="-1:-1" placeholder="select p.ID ..OPPORTUNITY..." />
+            <marker date="1391510089361" expanded="true" signature="-1:-1" placeholder="select s.ID ..SCENARIO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="37" selection-start="869" selection-end="869" vertical-scroll-proportion="0.16030534" vertical-offset="205" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/data/test_01_raw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="26" selection-start="428" selection-end="428" vertical-scroll-proportion="0.19469027" vertical-offset="132" max-vertical-offset="13442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/service/ScenarioServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="416" selection-end="416" vertical-scroll-proportion="0.16793893" vertical-offset="0" max-vertical-offset="917">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/enums/PortCoverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="90" selection-start="182" selection-end="256" vertical-scroll-proportion="0.14394766" vertical-offset="0" max-vertical-offset="917">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/service/ScenarioService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0959651" vertical-offset="0" max-vertical-offset="917">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/enums/PortType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="32" selection-start="154" selection-end="222" vertical-scroll-proportion="0.14394766" vertical-offset="0" max-vertical-offset="917">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/util/UploadedFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="0.04798255" vertical-offset="0" max-vertical-offset="917">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/UploadCompendiumFilesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="757" selection-end="757" vertical-scroll-proportion="0.15" vertical-offset="0" max-vertical-offset="1452">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/SpaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="29" selection-start="1267" selection-end="1288" vertical-scroll-proportion="0.43184295" vertical-offset="0" max-vertical-offset="917">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/json/ScenarioDeserializer.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="11" selection-start="132" selection-end="132" vertical-scroll-proportion="0.11995638" vertical-offset="0" max-vertical-offset="917">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/CompendiumController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="583" selection-end="583" vertical-scroll-proportion="0.21902655" vertical-offset="0" max-vertical-offset="1518">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/CodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="451" selection-end="451" vertical-scroll-proportion="0.23991276" vertical-offset="0" max-vertical-offset="917">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/ScenarioController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="2" selection-start="974" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orange/ru/json/deserialize/DeserializationSpock.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="28" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="968">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/json/ScenarioDeserializerImpl.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="33" selection-start="493" selection-end="493" vertical-scroll-proportion="0.26390404" vertical-offset="0" max-vertical-offset="917">
           <folding />
         </state>
       </provider>

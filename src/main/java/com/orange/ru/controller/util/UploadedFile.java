@@ -1,4 +1,4 @@
-package com.orange.ru.controller;
+package com.orange.ru.controller.util;
 
 public class UploadedFile {
   public int length;

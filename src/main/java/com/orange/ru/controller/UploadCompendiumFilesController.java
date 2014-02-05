@@ -2,12 +2,11 @@ package com.orange.ru.controller;
 
 import com.orange.ru.compendium.BusinessVpnTariffsHandler;
 import com.orange.ru.compendium.JsonResponse;
+import com.orange.ru.controller.util.UploadedFile;
 import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.FileCopyUtils;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.ValidationUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;

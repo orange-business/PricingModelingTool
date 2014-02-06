@@ -1,11 +1,9 @@
 ﻿"use strict";
 
 define(['backbone', 'webix'], function (Backbone) {
-
   // ---------------------------------------------
   //              Webix Menu:
   // ---------------------------------------------
-
   var menuData = [
     { id: "1", value: "Translate...", submenu: ["English", { value: "Slavic...", submenu: ["Belarus", "Russian", "Ukrain"] }, "German"] },
     { id: "2", value: "Post...", submenu: ["Facebook", "Google+", "Twitter"] },

@@ -1,6 +1,6 @@
 ﻿"use strict";
 
-define(['data/test_pmt', 'backbone', 'webix'], function (data, Backbone) {
+define(['data/test_scenario', 'models/AccessLinesModel', 'backbone', 'webix'], function (scenario, AccessLinesModel, Backbone) {
   // ---------------------------------------------
   //              Tab 2
   // ---------------------------------------------
@@ -9,8 +9,9 @@ define(['data/test_pmt', 'backbone', 'webix'], function (data, Backbone) {
     columns: [
       { id: "itemId", header: "id", width: 50 },
       { id: "productSiteAddress", header: "Site address", width: 150 },
-      { id: "productType", header: "Тип доступа", width: 100 },
-      { id: "in_capex_equipment_money", header: "Стоимость оборудования", width: 100 },
+      { id: "in_lines_type_string", header: "Тип доступа", width: 100, editor: "select", options: ["build", "lease"] },
+      { id: "in_capex_equipment_money", header: "Стоимость оборудования", width: 100, editor: "text" },
+      // todo point here
       { id: "out_cost_capex_onetime_money", header: "Разовые затраты", width: 100 },
       { id: "out_cost_monthly_money", header: "Ежемесячные затраты", width: 100 },
       { id: "inout_required_price_payment_onetime_money", header: "Желаемый разовый", width: 100 },
@@ -22,8 +23,10 @@ define(['data/test_pmt', 'backbone', 'webix'], function (data, Backbone) {
       { id: "ref_standard_required_price_payback_months", header: "Срок окупаемости", width: 100 },
     ],
     select: "cell",
+    editable: true,
     autoheight: true,
     autowidth: false,
+    resizeColumn: true
   };
   // ---------------------------------------------
   //              Backbone View:
@@ -35,7 +38,8 @@ define(['data/test_pmt', 'backbone', 'webix'], function (data, Backbone) {
         el: this.el
       });
       webixView.render();
-      webixView.root.sync(data.accessLines);
+      //webixView.root.sync(data.accessLines);
+      webixView.root.sync(scenario.getItemsCollection(AccessLinesModel));
       return this;
     }
   });

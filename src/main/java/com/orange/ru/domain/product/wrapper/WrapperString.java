@@ -1,6 +1,8 @@
 package com.orange.ru.domain.product.wrapper;
 
 import com.orange.ru.domain.product.Identification;
+import org.joda.time.LocalDateTime;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import static com.orange.ru.core.Utils.compareObjects;
@@ -39,7 +41,10 @@ public class WrapperString implements Serializable {
 
   // --- override Object ---
   @Override
-  public int hashCode() { return value.hashCode() + identification.hashCode(); }
+  public int hashCode() {
+    LocalDateTime time = new LocalDateTime();
+    return value.hashCode() + identification.hashCode() + time.hashCode();
+  }
   @Override
   public boolean equals(Object obj) {
     if (this == obj) return true;

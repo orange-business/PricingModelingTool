@@ -1,9 +1,10 @@
 package com.orange.ru.domain.product.wrapper;
 
 import com.orange.ru.domain.product.Identification;
-
 import javax.persistence.*;
 import java.io.Serializable;
+import java.math.BigDecimal;
+
 import static com.orange.ru.core.Utils.compareObjects;
 /**
  * Это обертка для любого не-денежного объекта.
@@ -14,6 +15,9 @@ import static com.orange.ru.core.Utils.compareObjects;
 @Entity
 @Table(name="wrapper_numeric")
 public class WrapperNumeric implements Serializable {
+  public WrapperNumeric(BigDecimal value, Identification identification){
+    this(value.doubleValue(),identification);
+  }
   public WrapperNumeric(Double value, Identification identification){
     this.value = value;
     this.identification = identification;

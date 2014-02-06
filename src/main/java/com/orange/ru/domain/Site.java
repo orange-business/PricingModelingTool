@@ -5,6 +5,8 @@ import java.io.Serializable;
 import static com.orange.ru.core.Utils.compareObjects;
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.hibernate.annotations.Type;
+import org.joda.time.LocalDateTime;
+
 /**
  * Entity Сайт. сайт - адрес где клиент располагает оборудованием, с нашей стороны это точка подключения.
  * User: Зайнуллин Радик
@@ -49,7 +51,10 @@ public class Site implements Serializable {
 
   // --- override Object ---
   @Override
-  public int hashCode() { return address.hashCode(); }
+  public int hashCode() {
+    LocalDateTime time = new LocalDateTime();
+    return address.hashCode() + time.hashCode();
+  }
   @Override
   public boolean equals(Object obj) {
     if (this == obj) return true;

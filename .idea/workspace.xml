@@ -11,8 +11,772 @@
   <component name="ChangeListManager">
     <list id="c22ea9b8-fc27-4e88-a814-b03254187329" name="Default" comment="" />
     <list default="true" id="9a364d0b-4d11-410d-a704-9324194ba3f8" name="target excluded" comment="target excluded">
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\java\com\orange\ru\controller\LoadTestJsonController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\java\com\orange\ru\controller\TestController.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/models/AccessLinesModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/models/BusinessVpnModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/models/ItemModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/models/ScenarioModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/data/test_scenario.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/models/utils.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/dhtmlx.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/dhtmlx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/__dhxCP_skin_SkyBlue/bg_head.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/__dhxCP_skin_SkyBlue/but_add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/__dhxCP_skin_SkyBlue/but_cancel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/__dhxCP_skin_SkyBlue/but_select.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/__dhxCP_skin_SkyBlue/slide.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/ar_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/ar_left_abs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/ar_left_abs_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/ar_left_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/ar_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/ar_right_abs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/ar_right_abs_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/ar_right_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/bg_selection.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/blanc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/blank.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/but_cut.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/color.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/colormini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/combo_select.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/combo_select_dhx_black.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/combo_select_dhx_blue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/combo_select_dhx_skyblue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/combo_select_dhx_terrace.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/combo_select_dhx_web.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/combo_select_dis_dhx_skyblue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/combo_select_dis_dhx_terrace.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/combo_select_dis_dhx_web.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/cp_buttons_panel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/cross.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/blanc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/book.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/book_titel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/but_cut.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/close2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/folder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/folderClosed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/folderOpen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/iconCheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/iconCheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/iconCheckGray.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/iconChecked.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/iconSafe.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/iconText.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/iconUncheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/iconUncheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/line1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/line1_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/line2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/line2_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/line3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/line3_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/line4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/line4_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/minus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/minus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/minus2_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/minus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/minus3_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/minus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/minus4_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/minus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/minus5_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/plus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/plus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/plus2_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/plus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/plus3_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/plus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/plus4_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/plus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/plus5_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/radio_off.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/radio_on.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/sort_asc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/sort_desc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluebooks/tombs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/folderClosed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/folderOpen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/iconCheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/iconCheckAll_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/iconCheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/iconCheckGray.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/iconChecked.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/iconFlag.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/iconGraph.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/iconSound.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/iconText.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/iconTexts.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/iconUncheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/iconUncheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/iconWrite1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/iconWrite2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/line1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/line2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/line3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/line4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/minus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/minus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/minus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/minus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/minus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/plus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/plus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/plus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/plus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/plus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/radio_off.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_bluefolders/radio_on.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/folderClosed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/folderOpen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/iconCheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/iconCheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/iconCheckGray.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/iconUncheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/iconUncheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/line1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/line2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/line3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/line4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/minus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/minus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/minus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/minus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/minus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/plus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/plus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/plus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/plus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/plus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/radio_off.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/radio_on.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/tombs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_books/tombs_open.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/folderClosed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/folderOpen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/iconCheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/iconCheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/iconCheckGray.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/iconChecked.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/iconFlag.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/iconGraph.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/iconSound.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/iconText.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/iconTexts.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/iconUncheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/iconUncheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/iconWrite1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/iconWrite2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/line1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/line2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/line3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/line4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/minus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/minus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/minus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/minus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/minus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/plus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/plus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/plus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/plus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/plus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/radio_off.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_dhx_skyblue/radio_on.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/folderClosed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/folderOpen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/iconCheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/iconCheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/iconCheckGray.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/iconChecked.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/iconFlag.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/iconGraph.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/iconSound.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/iconText.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/iconTexts.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/iconUncheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/iconUncheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/iconWrite1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/iconWrite2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/line1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/line2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/line3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/line4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/minus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/minus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/minus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/minus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/minus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/plus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/plus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/plus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/plus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/plus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/radio_off.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/radio_on.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/safe_close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_scbrblue/safe_open.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/folderClosed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/folderOpen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/iconCheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/iconCheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/iconCheckGray.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/iconChecked.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/iconFlag.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/iconGraph.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/iconSound.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/iconText.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/iconTexts.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/iconUncheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/iconUncheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/iconWrite1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/iconWrite2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/line1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/line2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/line3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/line4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/minus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/minus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/minus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/minus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/minus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/plus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/plus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/plus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/plus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/plus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/radio_off.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_vista/radio_on.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/folderClosed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/folderOpen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/iconCheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/iconCheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/iconCheckGray.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/iconChecked.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/iconFlag.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/iconGraph.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/iconSound.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/iconText.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/iconTexts.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/iconUncheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/iconUncheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/iconWrite1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/iconWrite2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/leaves.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/line1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/line2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/line3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/line4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/minus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/minus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/minus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/minus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/minus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/plus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/plus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/plus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/plus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/plus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/radio_off.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_winstyle/radio_on.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/books_close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/books_open.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/folderClosed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/folderOpen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/iconCheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/iconCheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/iconCheckGray.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/iconText.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/iconUncheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/iconUncheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/leaf2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/leaf3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/leaf_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/line1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/line2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/line3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/line4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/minus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/minus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/minus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/minus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/minus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/plus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/plus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/plus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/plus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/plus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/radio_off.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/radio_on.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/tombs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/csh_yellowbooks/tombs_open.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dark_blue/dark_blue_bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dark_blue/dark_blue_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dark_blue/dark_blue_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dark_blue/dark_blue_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dataview/bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dataview/dnd_selector.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dataview/dnd_selector_cells.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dataview/dnd_selector_lines.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dataview/marker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dataview/selection_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dataview/sky_blue_grid.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/default/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/default/default_bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/default/default_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/default/default_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/default/default_scroll_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/default/default_scroll_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/default/default_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhtmlxcalendar_dhx_skyblue/arrow_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhtmlxcalendar_dhx_skyblue/arrow_left_hover.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhtmlxcalendar_dhx_skyblue/arrow_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhtmlxcalendar_dhx_skyblue/arrow_right_hover.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhtmlxcalendar_dhx_skyblue/bg_days.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhtmlxcalendar_dhx_skyblue/bg_main.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhtmlxcalendar_omega/arrow_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhtmlxcalendar_omega/arrow_left_hover.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhtmlxcalendar_omega/arrow_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhtmlxcalendar_omega/arrow_right_hover.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhtmlxcalendar_omega/bg_days.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhtmlxcalendar_omega/bg_main.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhx_simple_sep.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhx_skyblue/bg_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhx_skyblue/bg_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhx_skyblue/bg_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhx_skyblue/bg_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhx_skyblue/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhx_skyblue/dhx_skyblue_bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhx_skyblue/dhx_skyblue_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhx_skyblue/dhx_skyblue_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhx_skyblue/dhx_skyblue_scroll_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhx_skyblue/dhx_skyblue_scroll_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhx_skyblue/dhx_skyblue_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhx_skyblue/dhxlayout_bg_sb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxaccord_dhx_skyblue/dhxacc_bg_hover.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxaccord_dhx_skyblue/dhxacc_bg_normal.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxaccord_dhx_skyblue/dhxacc_bg_sb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxaccord_dhx_skyblue/dhxacc_btns.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/align_center.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/align_center_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/align_justify.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/align_justify_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/align_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/align_left_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/align_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/align_right_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/bold.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/bold_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/buttons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/clear.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/dhxeditor_bg_lite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/h1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/h1_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/h2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/h2_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/h3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/h3_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/h4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/h4_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/indent_dec.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/indent_dec_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/indent_inc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/indent_inc_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/italic.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/italic_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/list_bullet.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/list_bullet_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/list_number.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/list_number_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/script_sub.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/script_sub_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/script_super.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/script_super_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/strike.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/strike_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/underline.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxeditor_dhx_skyblue/underline_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxform_dhx_skyblue/dhxform_btns.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxform_dhx_skyblue/dhxform_chbxrd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxform_dhx_skyblue/dhxform_upload_buttons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxform_dhx_skyblue/dhxform_upload_uploading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxgrid_dhx_skyblue/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxgrid_dhx_skyblue/asteriks.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxgrid_dhx_skyblue/rowselector.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxlayout_dhx_skyblue/dhxlayout_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxlayout_dhx_skyblue/dhxlayout_bg_sb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxlayout_dhx_skyblue/dhxlayout_btns.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxlayout_dhx_skyblue/dhxlayout_collapsedhor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxlayout_dhx_skyblue/dhxlayout_collapsedhor2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxlayout_dhx_skyblue/dhxlayout_collapsedver.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxlayout_dhx_skyblue/dhxlayout_cpanel_btn_dock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxlayout_dhx_skyblue/dhxlayout_cpanel_btn_undock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxlayout_dhx_skyblue/dhxlayout_drag_hor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxlayout_dhx_skyblue/dhxlayout_drag_ver.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxlayout_dhx_skyblue/dhxlayout_progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxlayout_dhx_skyblue/dhxlayout_progress_global.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxmenu_dhx_skyblue/dhtmlxmenu_chrd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxmenu_dhx_skyblue/dhtmlxmenu_loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxmenu_dhx_skyblue/dhtmlxmenu_subar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxmenu_dhx_skyblue/dhtmlxmenu_upar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxmenu_dhx_skyblue/dhxmenu_bg_acccell.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxmenu_dhx_skyblue/dhxmenu_subselbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxmenu_dhx_skyblue/dhxmenu_subsepbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxmenu_dhx_skyblue/dhxmenu_topselbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxmenu_dhx_skyblue/dhxmenu_topsepbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxpopup_dhx_skyblue/arrow_bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxpopup_dhx_skyblue/arrow_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxpopup_dhx_skyblue/arrow_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxpopup_dhx_skyblue/arrow_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxpopup_dhx_skyblue/list_hover.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxpopup_dhx_skyblue/list_sep.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxtoolbar_dhx_skyblue/dhxtoolbar_imgs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxwins_dhx_skyblue/active/header_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxwins_dhx_skyblue/active/icon_blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxwins_dhx_skyblue/active/icon_normal.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxwins_dhx_skyblue/active/progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxwins_dhx_skyblue/buttons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxwins_dhx_skyblue/inactive/header_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxwins_dhx_skyblue/inactive/icon_blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxwins_dhx_skyblue/inactive/icon_normal.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxwins_dhx_skyblue/inactive/progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dhxwins_dhx_skyblue/statusbar_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dyn_.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dyn_down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/dyn_up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/false.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/folder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/folderClosed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/folderOpen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/glassy_blue/glassy_blue_bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/glassy_blue/glassy_blue_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/glassy_blue/glassy_blue_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/glassy_blue/glassy_blue_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/green.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/header_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/header_bg_60.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/iconCheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/iconCheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/iconCheckGray.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/iconUncheckAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/iconUncheckDis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/blanc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/book.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/books.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/books_cat.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/cd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/dvd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/dvds.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/item_chk0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/item_chk0_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/item_chk1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/item_chk1_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/line1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/line2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/line3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/line4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/minus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/minus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/minus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/minus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/minus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/music.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/plus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/plus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/plus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/plus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/plus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/radio_chk0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/radio_chk0_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/radio_chk1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/radio_chk1_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/sort_asc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_books/sort_desc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/blanc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/folder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/item_chk0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/item_chk0_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/item_chk1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/item_chk1_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/line1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/line2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/line3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/line4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/minus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/minus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/minus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/minus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/minus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/plus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/plus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/plus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/plus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/plus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/radio_chk0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/radio_chk0_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/radio_chk1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/radio_chk1_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/sort_asc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/icons_greenfolders/sort_desc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/imageloaderror.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/item_chk0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/item_chk0_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/item_chk1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/item_chk1_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/left_bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/left_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/line1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/line1_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/line2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/line2_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/line3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/line3_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/line4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/line4_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/minus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/minus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/minus2_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/minus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/minus3_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/minus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/minus4_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/minus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/minus5_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/minus_ar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/modern/modern_bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/modern/modern_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/modern/modern_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/modern/modern_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/plus1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/plus2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/plus2_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/plus3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/plus3_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/plus4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/plus4_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/plus5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/plus5_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/plus_ar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/radio_chk0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/radio_chk0_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/radio_chk1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/radio_chk1_dis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/radio_off.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/radio_on.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/red.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/results.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/right_bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/right_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/silver/silver_bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/silver/silver_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/silver/silver_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/silver/silver_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skinA_header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skinB_header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skinC_header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skinC_top_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skinC_top_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skinD_bottom_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skinD_bottom_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skinD_header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skin_light_header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skin_modern_header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrow/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrow/leftside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrow/rightside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrow/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrow/vertical/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrow/vertical/leftside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrow/vertical/rightside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrow/vertical/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrowgreen/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrowgreen/leftside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrowgreen/rightside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrowgreen/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrowgreen/vertical/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrowgreen/vertical/leftside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrowgreen/vertical/rightside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/arrowgreen/vertical/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/ball/leftside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/ball/leftzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/ball/rightside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/ball/rightzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/ball/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/ball/vertical/leftside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/ball/vertical/leftzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/ball/vertical/rightside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/ball/vertical/rightzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/ball/vertical/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/bar/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/bar/leftside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/bar/rightside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/bar/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/bar/vertical/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/bar/vertical/leftside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/bar/vertical/rightside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/bar/vertical/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/leftside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/leftside_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/leftzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/leftzone_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/leftzone_bg_fill.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/rightside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/rightside_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/rightzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/rightzone_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/selector.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/vertical/leftside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/vertical/leftside_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/vertical/leftzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/vertical/leftzone_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/vertical/rightside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/vertical/rightside_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/vertical/rightzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/vertical/rightzone_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/vertical/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/default/vertical/selector.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/dhx_skyblue/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/dhx_skyblue/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/dhx_skyblue/vertical/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/dhx_skyblue/vertical/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplegray/leftside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplegray/leftzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplegray/rightside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplegray/rightzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplegray/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplegray/vertical/leftside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplegray/vertical/leftzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplegray/vertical/rightside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplegray/vertical/rightzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplegray/vertical/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplesilver/leftside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplesilver/leftzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplesilver/rightside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplesilver/rightzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplesilver/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplesilver/vertical/leftside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplesilver/vertical/leftzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplesilver/vertical/rightside_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplesilver/vertical/rightzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/simplesilver/vertical/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/vertical/sldr_buki.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/zipper/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/zipper/leftzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/zipper/rightzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/zipper/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/zipper/vertical/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/zipper/vertical/leftzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/zipper/vertical/rightzone_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/skins/zipper/vertical/selector.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/sky_blue_grid.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/sky_blue_sel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/sky_blue_sel2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/sky_blue_sel_tree.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/slide.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/sort_asc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/sort_desc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/true.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/winbiscarf/winbiscarf_bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/winbiscarf/winbiscarf_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/winbiscarf/winbiscarf_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/winbiscarf/winbiscarf_scroll_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/winbiscarf/winbiscarf_scroll_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/winbiscarf/winbiscarf_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/winscarf/winscarf_bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/winscarf/winscarf_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/winscarf/winscarf_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/winscarf/winscarf_scroll_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/winscarf/winscarf_scroll_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/imgs/winscarf/winscarf_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/manifest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/patterns/dhtmlxlayout_pattern4a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/patterns/dhtmlxlayout_pattern4c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/patterns/dhtmlxlayout_pattern4e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/patterns/dhtmlxlayout_pattern4f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/patterns/dhtmlxlayout_pattern4g.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/patterns/dhtmlxlayout_pattern4j.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/patterns/dhtmlxlayout_pattern4l.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/patterns/dhtmlxlayout_pattern4w.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/patterns/dhtmlxlayout_pattern5e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/patterns/dhtmlxlayout_pattern5u.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/patterns/dhtmlxlayout_pattern5w.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/patterns/dhtmlxlayout_pattern6c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/patterns/dhtmlxlayout_pattern6e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/patterns/dhtmlxlayout_pattern6w.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/patterns/dhtmlxlayout_pattern7h.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/types/ftypes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/lib/dhtmlx/types/ftypes.js" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\face\CVS\Entries" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\face\CVS\Entries.Extra" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\face\CVS\Entries.Extra.Old" afterPath="" />
@@ -25,6 +789,27 @@
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\face\main\CVS\Entries.Old" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\face\main\CVS\Repository" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\face\main\CVS\Root" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\collections\itemFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\collections\items.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\collections\todos.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\data\tab1data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\data\test_films.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\data\test_films_raw.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\data\test_pmt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\lib\backbone\backbone-nested.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\lib\backbone\backbone-optamd3-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\lib\backbone\backbone.localStorage.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\lib\backbone\localstorage.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\models\Item.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\models\factory.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\models\itemBVpn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\models\itemLines.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\modules\gridLines.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\templates\stats.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\templates\todos.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\views\grid.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\views\tab3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\views\todo.js" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Entries" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Entries.Extra" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Entries.Extra.Old" afterPath="" />
@@ -32,10 +817,25 @@
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Repository" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\java\com\orange\ru\heap\gson\CVS\Root" afterPath="" />
       <change type="DELETED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\test\resources\2.xlsx" afterPath="" />
-      <change type="MOVED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\java\com\orange\ru\controller\UploadedFile.java" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/controller/util/UploadedFile.java" />
+      <change type="MOVED" beforePath="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\data\pmt-sampleData.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/data/test_01_raw.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/orange/ru/mongodb/converter/CoefficientWriteConverterTest.groovy" afterPath="$PROJECT_DIR$/src/test/java/com/orange/ru/mongodb/converter/CoefficientWriteConverterTest.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/orange/ru/json/deserialize/DeserializationSpock.groovy" afterPath="$PROJECT_DIR$/src/test/java/com/orange/ru/json/deserialize/DeserializationSpock.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/orange/ru/controller/UploadCompendiumFilesController.java" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/controller/UploadCompendiumFilesController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenario_serializer.log" afterPath="$PROJECT_DIR$/scenario_serializer.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/orange/ru/service/IdentificationService.java" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/service/IdentificationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/orange/ru/service/IdentificationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/service/IdentificationServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/json/ScenarioDeserializerImpl.groovy" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/json/ScenarioDeserializerImpl.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/Site.java" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/Site.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/wrapper/WrapperNumeric.java" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/wrapper/WrapperNumeric.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/wrapper/WrapperString.java" afterPath="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/wrapper/WrapperString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/app.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/footer.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/footer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/header.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/menu.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/start.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/start.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/tab1.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/tab1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/tab2.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/tab2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/views/tabs.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/data/test_02_raw.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/data/test_02_raw.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="499d74af-c342-44c0-981c-0fea33eeacbf" name="Failed commit: target excluded" comment="target excluded" />
@@ -147,28 +947,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ScenarioController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/ScenarioController.java">
+      <file leaf-file-name="start.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="2" selection-start="974" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
+            <state line="12" column="38" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="946">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScenarioDeserializerImpl.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/json/ScenarioDeserializerImpl.groovy">
+      <file leaf-file-name="test_scenario.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/data/test_scenario.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="33" selection-start="493" selection-end="493" vertical-scroll-proportion="0.26390404" vertical-offset="0" max-vertical-offset="917">
+            <state line="4" column="6" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeserializationSpock.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/orange/ru/json/deserialize/DeserializationSpock.groovy">
+      <file leaf-file-name="ScenarioModel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/models/ScenarioModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="28" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="968">
+            <state line="5" column="26" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/footer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="5" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="34" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/menu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="51" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tab1.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="3" selection-start="1820" selection-end="1820" vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="1188">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tab2.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="50" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabs.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tabs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="0.21902655" vertical-offset="0" max-vertical-offset="904">
               <folding />
             </state>
           </provider>
@@ -192,17 +1055,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/js/models/factory.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/models/Item.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/models/itemLines.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/tests/test-polymorphism.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/public/scenarios/select/select-flow.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/swf/model/ScenariousSelectForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/Opportunity.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/select/select-flow.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/service/OpportunityService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spa/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spa/views.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/models/item.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/Scenario.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/Product.java" />
@@ -228,21 +1080,32 @@
         <option value="$PROJECT_DIR$/src/main/webapp/js/collections/info" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/views/grid.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/spa/edit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/start.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/views/app.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/data/test_02_raw.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/data/test_films_raw.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/views/tab1.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/views/tab2.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/views/tab3.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/views/footer.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/views/menu.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/views/header.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/views/tabs.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/data/tab1data.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/data/test_01_raw.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/controller/util/UploadedFile.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orange/ru/mongodb/converter/CoefficientWriteConverterTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/resources/logback-test.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/Site.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/orange/ru/json/deserialize/DeserializationSpock.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/Identification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/service/IdentificationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/wrapper/WrapperString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/service/IdentificationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/json/ScenarioDeserializerImpl.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/wrapper/WrapperNumeric.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/models/ScenarioModel.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/data/test_02_raw.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/start.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/data/test_scenario.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/views/app.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/views/footer.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/views/header.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/views/menu.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/views/tab1.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/views/tab2.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/views/tabs.js" />
       </list>
     </option>
   </component>
@@ -406,16 +1269,148 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Production">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modeling-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modeling-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="resources">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="resources">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -611,6 +1606,144 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PricingModelingTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -670,148 +1803,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Production">
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="resources">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="All">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PricingModelingTool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="resources">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeling-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -856,15 +1857,15 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.orange.ru.groovy.bvpn.fix" />
       <recent name="com.orange.ru.groovy.bvpn" />
       <recent name="com.orange.ru.groovy.lines" />
       <recent name="com.orange.ru.mongodb.repositories" />
       <recent name="com.orange.ru.mongodb.converter" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="groovy.util.GroovyTestCase" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.orange.ru.controller" />
@@ -874,18 +1875,11 @@
       <recent name="com.orange.ru.domain.product.gson" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp" />
       <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js" />
       <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\data" />
       <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\tests" />
       <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\templates" />
-      <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\views" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\scenarios" />
-      <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private" />
-      <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\tests" />
-      <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\spa\test" />
-      <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.orange.ru" />
@@ -894,8 +1888,15 @@
       <recent name="spock" />
       <recent name="com.orange.ru.groovy.product" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private\scenarios" />
+      <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\private" />
+      <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\js\tests" />
+      <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp\WEB-INF\spa\test" />
+      <recent name="C:\PricingPortalProject\Source\Java\PricingModelingTool\src\main\webapp" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeserializationSpock.Имитация сохранение в базе Scenario полученного из интерфейса">
+  <component name="RunManager" selected="Tomcat Server.Tomcat Test Local">
     <configuration default="false" name="BusinessVpnCosts1" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="modeling-tool" />
       <setting name="path" value="file://$PROJECT_DIR$/src/test/java/groovy_tools/business_vpn/BusinessVpnCosts1.groovy" />
@@ -998,7 +1999,13 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -1550,7 +2557,11 @@
       <changelist id="6507903a-9447-41ee-803b-205f8d8a36a5" name="Rejected commit: target excluded" comment="target excluded" />
       <created>1363413776927</created>
       <updated>1363698004320</updated>
-      <workItem from="1391575901196" duration="3294000" />
+      <workItem from="1391575901196" duration="6311000" />
+      <workItem from="1391587483634" duration="4507000" />
+      <workItem from="1391592025288" duration="10239000" />
+      <workItem from="1391608756247" duration="1330000" />
+      <workItem from="1391661983816" duration="1856000" />
     </task>
     <task id="LOCAL-00001" summary="before tuning converter for client">
       <created>1363697974285</created>
@@ -1560,7 +2571,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59271000" />
+    <option name="totallyTimeSpent" value="80220000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1590,42 +2601,42 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4346847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2" sideWeight="0.28340518" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.47885713" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.47885713" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34143764" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11271367" sideWeight="0.6702381" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6754757" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11271367" sideWeight="0.6702381" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49577168" sideWeight="0.3734375" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6078224" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.47885713" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.47885713" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45833334" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5405405" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981783" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1953125" sideWeight="0.5371622" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.7515856" sideWeight="0.32657418" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24207188" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22291666" sideWeight="0.55648535" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.46088794" sideWeight="0.32657418" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48097253" sideWeight="0.62291664" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1782284" sideWeight="0.42761692" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29069766" sideWeight="0.48931623" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48051947" sideWeight="0.62291664" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22291666" sideWeight="0.44351465" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2900433" sideWeight="0.48931623" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1782284" sideWeight="0.40089086" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22008547" sideWeight="0.49786323" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14705883" sideWeight="0.67094016" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14705883" sideWeight="0.67094016" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39957264" sideWeight="0.47885713" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.90010405" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.90010405" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Jelastic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20512821" sideWeight="0.4957265" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297619" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17379679" sideWeight="0.7866379" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17379679" sideWeight="0.7866379" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.47885713" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.47885713" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30021143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3073593" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29913607" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964823" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1711,173 +2722,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="60" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="616">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/spa/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="418">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/select/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/SpaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="1267" selection-end="1288" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="748">
-          <folding />
-        </state>
+        <state line="6" column="12" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/service/OpportunityServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="38" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.0" vertical-offset="968" max-vertical-offset="3674">
-          <folding>
-            <marker date="1391510089361" expanded="true" signature="-1:-1" placeholder="select opp.I..OPPORTUNITY_SCENARIO..." />
-            <marker date="1391510089361" expanded="true" signature="-1:-1" placeholder="select p.ID ..OPPORTUNITY..." />
-            <marker date="1391510089361" expanded="true" signature="-1:-1" placeholder="select s.ID ..SCENARIO..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/data/test_01_raw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="13442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="50" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/templates/tabs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="35" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0744921" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/grid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/data/tab1data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="3" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.9520174" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tabs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="60" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="616">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/spa/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/private/scenarios/select/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/service/OpportunityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="38" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.0" vertical-offset="968" max-vertical-offset="3674">
-          <folding>
-            <marker date="1391510089361" expanded="true" signature="-1:-1" placeholder="select opp.I..OPPORTUNITY_SCENARIO..." />
-            <marker date="1391510089361" expanded="true" signature="-1:-1" placeholder="select p.ID ..OPPORTUNITY..." />
-            <marker date="1391510089361" expanded="true" signature="-1:-1" placeholder="select s.ID ..SCENARIO..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="869" selection-end="869" vertical-scroll-proportion="0.16030534" vertical-offset="205" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/data/test_01_raw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="428" selection-end="428" vertical-scroll-proportion="0.19469027" vertical-offset="132" max-vertical-offset="13442">
           <folding />
         </state>
       </provider>
@@ -1891,30 +2743,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/enums/PortCoverage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="90" selection-start="182" selection-end="256" vertical-scroll-proportion="0.14394766" vertical-offset="0" max-vertical-offset="917">
-          <folding />
-        </state>
+        <state line="7" column="90" selection-start="182" selection-end="256" vertical-scroll-proportion="0.14394766" vertical-offset="0" max-vertical-offset="917" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/service/ScenarioService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0959651" vertical-offset="0" max-vertical-offset="917">
-          <folding />
-        </state>
+        <state line="7" column="17" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0959651" vertical-offset="0" max-vertical-offset="917" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/enums/PortType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="32" selection-start="154" selection-end="222" vertical-scroll-proportion="0.14394766" vertical-offset="0" max-vertical-offset="917">
-          <folding />
-        </state>
+        <state line="6" column="32" selection-start="154" selection-end="222" vertical-scroll-proportion="0.14394766" vertical-offset="0" max-vertical-offset="917" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/util/UploadedFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="0.04798255" vertical-offset="0" max-vertical-offset="917">
-          <folding />
-        </state>
+        <state line="2" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="0.04798255" vertical-offset="0" max-vertical-offset="917" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/UploadCompendiumFilesController.java">
@@ -1933,9 +2777,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/json/ScenarioDeserializer.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="132" selection-end="132" vertical-scroll-proportion="0.11995638" vertical-offset="0" max-vertical-offset="917">
-          <folding />
-        </state>
+        <state line="5" column="11" selection-start="132" selection-end="132" vertical-scroll-proportion="0.11995638" vertical-offset="0" max-vertical-offset="917" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/CompendiumController.java">
@@ -1952,23 +2794,232 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orange/ru/mongodb/converter/CoefficientWriteConverterTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="292" selection-end="292" vertical-scroll-proportion="0.3127962" vertical-offset="0" max-vertical-offset="2486" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orange/ru/mongodb/repositories/CoefficientRepositoryImplTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="22" selection-start="2872" selection-end="2872" vertical-scroll-proportion="0.7298578" vertical-offset="1254" max-vertical-offset="2090" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/3.2.2.RELEASE/spring-test-3.2.2.RELEASE.jar!/org/springframework/test/context/TestContextManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="2297" selection-end="2297" vertical-scroll-proportion="0.81326354" vertical-offset="348" max-vertical-offset="946" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.0/joda-time-2.0.jar!/org/joda/time/LocalDateTime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="162" selection-end="162" vertical-scroll-proportion="-0.7294939" vertical-offset="528" max-vertical-offset="6578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/enums/LinesType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="106" selection-end="162" vertical-scroll-proportion="0.12290503" vertical-offset="0" max-vertical-offset="895" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/controller/ScenarioController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="2" selection-start="974" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
+        <state line="16" column="34" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/logback-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="23" selection-start="1990" selection-end="1990" vertical-scroll-proportion="0.6004592" vertical-offset="775" max-vertical-offset="1716" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="243" selection-end="243" vertical-scroll-proportion="0.24581006" vertical-offset="0" max-vertical-offset="895" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/AccessLines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="36" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="1254" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="13" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="1474" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/json/ScenarioSerializerImpl.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="25" selection-start="1668" selection-end="1668" vertical-scroll-proportion="-0.051282052" vertical-offset="902" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/Port.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="8" selection-start="1973" selection-end="2046" vertical-scroll-proportion="0.2675086" vertical-offset="691" max-vertical-offset="1562" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/orange/ru/json/deserialize/DeserializationSpock.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="28" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="968">
+        <state line="41" column="0" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/enums/ProductItemType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="68" selection-start="153" selection-end="153" vertical-scroll-proportion="0.12290503" vertical-offset="0" max-vertical-offset="895" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/ProductItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="36" selection-start="2384" selection-end="2410" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="3212" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/Identification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/BusinessVpn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="48" selection-start="482" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="1298" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/service/IdentificationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.2.RELEASE/spring-aop-3.2.2.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="33" selection-start="2259" selection-end="2259" vertical-scroll-proportion="0.8203034" vertical-offset="353" max-vertical-offset="1210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/Scenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="16" selection-start="1821" selection-end="1821" vertical-scroll-proportion="-0.15530726" vertical-offset="1041" max-vertical-offset="1936" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/Site.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="2021" selection-end="2115" vertical-scroll-proportion="0.4837989" vertical-offset="645" max-vertical-offset="1540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/service/IdentificationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="37" selection-start="69" selection-end="69" vertical-scroll-proportion="0.04988662" vertical-offset="0" max-vertical-offset="1144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/wrapper/WrapperString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1581" selection-end="1581" vertical-scroll-proportion="0.5083799" vertical-offset="425" max-vertical-offset="1320" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/wrapper/WrapperMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="580" selection-end="580" vertical-scroll-proportion="0.27039105" vertical-offset="0" max-vertical-offset="1628" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/json/ScenarioDeserializerImpl.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="33" selection-start="493" selection-end="493" vertical-scroll-proportion="0.26390404" vertical-offset="0" max-vertical-offset="917">
+        <state line="91" column="51" selection-start="3751" selection-end="3751" vertical-scroll-proportion="0.0" vertical-offset="1307" max-vertical-offset="2244">
+          <folding>
+            <element signature="e#43#72#0" expanded="false" />
+            <element signature="n#!!block;n#extractPort#0;n#!!block;n#ScenarioDeserializerImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/orange/ru/domain/product/wrapper/WrapperNumeric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="27" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/lib/qunit/qunit-1.13.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="48554" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/data/test_01_raw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/data/test_02_raw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="29" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="21648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/data/test_scenario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="38" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="946">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/models/ScenarioModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="26" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="34" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="51" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="3" selection-start="1820" selection-end="1820" vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="1188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tab2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="50" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/tabs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="0.21902655" vertical-offset="0" max-vertical-offset="904">
           <folding />
         </state>
       </provider>

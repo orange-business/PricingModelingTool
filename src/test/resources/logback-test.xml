@@ -62,9 +62,9 @@
   </logger>
 
 
-  <logger name="populate" level="DEBUG">
-    <appender-ref ref="GSON_TEST"/>
-  </logger>
+  <!--<logger name="populate" level="DEBUG">-->
+    <!--<appender-ref ref="GSON_TEST"/>-->
+  <!--</logger>-->
 
   <root level="OFF">
     <appender-ref ref="STDOUT"/>

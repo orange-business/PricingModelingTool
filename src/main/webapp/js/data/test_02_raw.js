@@ -1,5 +1,6 @@
 ﻿define(function () {
-  var data = {
+
+  var data =  {
     "id": 1,
     "ownerEmail": "sergey.bogachek@orange.com",
     "note": "sql-generated scenario 01",

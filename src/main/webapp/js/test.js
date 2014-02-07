@@ -1,9 +1,8 @@
 ﻿"use strict";
 
-// ------------------------------------------------------------------------------
-// Qunit добавлено сюда, чтобы тестовый конфиг был одинаков с рабочим конфигом
-// (в случае сомнений скопировать полностью конфиг отсюда в test.js)
-// ------------------------------------------------------------------------------
+// ----------------------------------------------
+// config в точности такой же, как в start.js:
+// ----------------------------------------------
 
 require.config({
     paths: {
@@ -45,19 +44,26 @@ require.config({
     }
 });
 
+// ------------------------------------------
+//              список тестов:
+// ------------------------------------------
+
+var tests = [
+    'tests/models/test_ScenarioModel',
+    'tests/models/test_ItemModel',
+    'tests/models/test_BusinessVPNModel',
+    'tests/models/test_AccessLinesModel',
+    'tests/models/test_utils',
+];
 
 // ------------------------------------------
-//              запуск приложения:
+//              запуск тестов:
 // ------------------------------------------
 
-require(['views/app'], function (AppView) {
+var dependencies = ['QUnit'];
+for (var i = 0; i < tests.length; i++) dependencies.push(tests[i]);
 
-    var appView = new AppView();
-    appView.render();
-
+require(dependencies, function(QUnit) {
+    QUnit.load();
+    QUnit.start();
 });
-
-
-
-
-

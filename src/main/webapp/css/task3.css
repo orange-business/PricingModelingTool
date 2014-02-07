@@ -1,0 +1,83 @@
+﻿body 
+{
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background-color: #f9cb9c;
+    font-size: 13px;
+}
+
+.clear 
+{
+    clear: both;
+}
+
+.header img
+{
+    float: left;
+}
+
+.header span
+{
+    margin-left: 20px;
+    line-height: 42px;
+    font-size: 20px;
+}
+
+.app-menu 
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.app-info 
+{
+    clear: both;
+    margin-top: 20px;
+}
+
+.app-info .left 
+{
+    float: left;
+}
+
+.app-info .right
+{
+    float: right;
+}
+
+.colLeft 
+{
+    text-align: right;
+}
+
+.colRight
+{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.info-buttons 
+{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.app-tabs 
+{
+    clear: both;
+    margin-top: 25px;
+}
+
+.app-tabs .tab
+{
+    min-height: 300px;
+}
+
+.app-footer 
+{
+    background-color: #c1c1c1;
+    text-align: right;
+    margin-top: 30px;
+    padding: 5px 20px 5px 10px;
+}
+

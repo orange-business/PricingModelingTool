@@ -8,6 +8,8 @@
   <div class="app-footer box"></div>
 </div>
 
+<link href="/css/task3.css" rel="stylesheet" type="text/css" />
+
 <link href="/js/lib/jqueryui/jquery-ui.css" rel="stylesheet" type="text/css" />
 <link href="/js/lib/webix/webix.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" />
 

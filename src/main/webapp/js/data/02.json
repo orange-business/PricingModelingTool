@@ -1,9 +1,4 @@
-﻿
-define(function () {
-
-    var data =
-
-{
+﻿{
     "id": 1,
     "ownerEmail": "sergey.bogachek@orange.com",
     "note": "sql-generated scenario 01",
@@ -975,8 +970,4 @@ define(function () {
             }
         }
     ]
-};
-
-    return data;
-
-});
+}

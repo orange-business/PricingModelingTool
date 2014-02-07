@@ -1,5 +1,5 @@
 ﻿"use strict";
-define(['text!templates/tabs.html', 'views/tab1', 'views/tab2', 'jquery', 'underscore', 'backbone', 'jquery_ui'], function (template, Tab1View, Tab2View, $, _, Backbone) {
+define(['text!templates/tabs.html','views/tab1','views/tab2','jquery','underscore','backbone','jquery_ui'], function (template, Tab1View, Tab2View, $, _, Backbone) {
   return Backbone.View.extend({
     template: _.template(template),
     //

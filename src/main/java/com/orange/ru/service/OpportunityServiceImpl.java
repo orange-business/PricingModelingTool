@@ -45,7 +45,7 @@ public class OpportunityServiceImpl implements OpportunityService {
     List<Object[]> lst = em.createNativeQuery(findByUserScenariousQuery).setParameter(1, email).getResultList();
     Map map = new HashMap<String, String>();
     for (Object[] arr: lst){
-      map.put("/private/scenarios/edit?id=" + arr[1],"сценарий " + arr[0] + ", сценарий " + arr[1] + ", созданный " + arr[2]);
+      map.put("/private/scenarios/edit?id=" + arr[1],"оппортьюнити " + arr[0] + ", сценарий " + arr[1] + ", созданный " + arr[2]);
     }
     return map;
   }

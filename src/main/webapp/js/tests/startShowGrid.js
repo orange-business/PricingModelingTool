@@ -1,6 +1,3 @@
-/**
- * Created by radik.zaynullin on 29.01.14.
- */
 require.config({
   baseUrl: '/js',
   paths: {
@@ -40,5 +37,4 @@ require(['modules/gridLines', 'lib/require/domReady', 'tests/sampleData', 'under
     myDataStore.parse(itemsBusinessVPN);
     mygrid.sync(myDataStore);
   });
-
 });

@@ -1,5 +1,4 @@
 ﻿"use strict";
-
 define(['data/test_scenario', 'models/BusinessVpnModel', 'backbone', 'underscore', 'webix'], function (scenario, BusinessVpnModel, Backbone, _) {
   // ---------------------------------------------
   //              Tab 1
@@ -20,7 +19,7 @@ define(['data/test_scenario', 'models/BusinessVpnModel', 'backbone', 'underscore
       { id: "ref_tariff_ubb_data2_1MB_money", header: "D2", width: 100 },
       { id: "ref_tariff_ubb_data1_1MB_money", header: "D1", width: 100 },
       { id: "ref_tariff_ubb_voice_1MB_money", header: "Voice", width: 100 },
-      { id: "ref_tariff_ubb_video_1MB_money", header: "Video", width: 100 },
+      { id: "ref_tariff_ubb_video_1MB_money", header: "Video", width: 100 }
     ],
     select: "cell",
     editable: true,

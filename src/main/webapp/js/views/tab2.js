@@ -1,6 +1,5 @@
 ﻿"use strict";
-
-define(['data/test_scenario', 'models/AccessLinesModel', 'backbone', 'webix'], function (scenario, AccessLinesModel, Backbone) {
+define(['data/test_scenario','models/AccessLinesModel','backbone','webix'], function (scenario, AccessLinesModel, Backbone) {
   // ---------------------------------------------
   //              Tab 2
   // ---------------------------------------------
@@ -20,7 +19,7 @@ define(['data/test_scenario', 'models/AccessLinesModel', 'backbone', 'webix'], f
       { id: "out_standard_price_payment_onetime_money", header: "Стандартный разовый", width: 100 },
       { id: "out_standard_price_payment_monthly_money", header: "Стандартный ежемесячный", width: 100 },
       { id: "ref_floor_price_margin_percent", header: "Маржа", width: 100 },
-      { id: "ref_standard_required_price_payback_months", header: "Срок окупаемости", width: 100 },
+      { id: "ref_standard_required_price_payback_months", header: "Срок окупаемости", width: 100 }
     ],
     select: "cell",
     editable: true,

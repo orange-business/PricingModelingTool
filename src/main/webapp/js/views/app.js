@@ -1,6 +1,7 @@
 ﻿"use strict";
 
-define(['views/header','views/menu','views/tabs','views/footer','jquery','backbone'], function (HeaderView, MenuView, TabsView, FooterView, $, Backbone) {
+define(['views/header','views/menu','views/tabs','views/footer','jquery','backbone'],
+    function (HeaderView, MenuView, TabsView, FooterView, $, Backbone) {
   return Backbone.View.extend({
     el: $("#app"),
     //

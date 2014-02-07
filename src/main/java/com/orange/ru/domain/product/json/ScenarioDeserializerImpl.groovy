@@ -2,6 +2,7 @@ package com.orange.ru.domain.product.json
 
 import com.orange.ru.domain.*
 import com.orange.ru.domain.product.*
+import com.orange.ru.domain.product.enums.LinesType
 import com.orange.ru.domain.product.enums.PortCoverage
 import com.orange.ru.domain.product.enums.ProductItemType
 import com.orange.ru.domain.product.wrapper.WrapperMoney
@@ -23,37 +24,27 @@ class ScenarioDeserializerImpl implements ScenarioDeserializer {
   @Autowired SiteService siteService
   @Override
   Scenario deserialize(String json) {
-    Scenario scenario = new Scenario()
-    def slurper = new JsonSlurper()
-    def result = slurper.parseText(json)
-    // Заполняем сценарий
-    scenario.id = result.id
-    scenario.ownerEmail = result.ownerEmail
-    scenario.note = result.note
-    scenario.contractTerm = result.contractTerm
-    scenario.lastUpdateDate = LocalDateTime.parse(result.lastUpdateDate, DateTimeFormat.forPattern("yyyy.MM.dd hh:mm"));
-
-
-    for (def itemObj: result.items){
+    def parsed = (new JsonSlurper()).parseText(json)
+    Set productItems = new HashSet<ProductItem>();
+    for (def item : parsed.items){
       Product product = null;
       // Создаем правильную услугу
-      if (itemObj.product.code == "115.00") {
-        product = new BusinessVpn()
-        product.id = itemObj.product.id
-        product.town = itemObj.product.town
-        product.site = siteService.findById(itemObj.product.site.id)
-        product.port = extractPort(itemObj)
-      }
-      if (itemObj.product.code == "802.01") {
-        product = new AccessLines()
-
-        product.id = itemObj.product.id
-        product.site = siteService.findById(itemObj.product.site.id)
-      }
+      if (item.product.code == "115.00") product = extractBusinessVpn(item)
+      if (item.product.code == "802.01") product = extractAccessLines(item)
       // добавляем полностью сконфигурированный item
-      scenario.productItems.add(extractItem(itemObj, product))
+      productItems.add(extractItem(item, product))
     }
-
+    // Заполняем сценарий
+    return extractScenario(parsed, productItems)
+  }
+  def extractScenario(def parsed, def productItems){
+    Scenario scenario = new Scenario()
+    scenario.productItems = productItems
+    scenario.id = parsed.id
+    scenario.ownerEmail = parsed.ownerEmail
+    scenario.note = parsed.note
+    scenario.contractTerm = parsed.contractTerm
+    scenario.lastUpdateDate = LocalDateTime.parse(parsed.lastUpdateDate, DateTimeFormat.forPattern("yyyy.MM.dd hh:mm"))
     return scenario
   }
   def extractPort(Object itemObj){
@@ -65,7 +56,6 @@ class ScenarioDeserializerImpl implements ScenarioDeserializer {
     return port;
   }
   def extractItem(Object itemObj, Product product){
-    // strings
     ProductItem item = new ProductItem(product)
     item.id = itemObj.id
     if (itemObj.type == "new") item.type = ProductItemType.NEW
@@ -100,5 +90,21 @@ class ScenarioDeserializerImpl implements ScenarioDeserializer {
       treasures.add(new WrapperMoney(wrapper.value, identification))
     }
     return treasures
+  }
+  def extractAccessLines(def item){
+    AccessLines product = new AccessLines()
+    product.id = item.product.id
+    if (item.product.type == "build") product.type = LinesType.BUILD
+    if (item.product.type == "lease") product.type = LinesType.LEASE
+    product.site = siteService.findById(item.product.site.id)
+    return product
+  }
+  def extractBusinessVpn(def item){
+    BusinessVpn product = new BusinessVpn()
+    product.id = item.product.id
+    product.town = item.product.town
+    product.site = siteService.findById(item.product.site.id)
+    product.port = extractPort(item)
+    return product
   }
 }

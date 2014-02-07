@@ -1,7 +1,6 @@
 package com.orange.ru.domain;
 
 import com.orange.ru.domain.product.enums.CustomerType;
-
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.*;
